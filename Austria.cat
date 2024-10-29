@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bd7b-98ce-ac0b-d9eb" name="Austria" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f347-af68-8218-d8fc" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="be56-0143-a6e6-26e1" name="Supernatural Being" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80ec-ff0b-1c6e-0a2d" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="de4c-5faf-68b9-67b3" name="Officer" hidden="false" collective="false" import="true" targetId="c724-1052-55ac-963f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0bcd-9111-0bda-18b3" name="New CategoryLink" hidden="false" targetId="7f0d-d1d2-fafc-4762" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2add-0eea-66ba-3da4" name="Infantryman" hidden="false" collective="false" import="true" targetId="ebdd-e082-edfa-f12c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ef82-4a5c-8af7-736d" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7827-7dfa-8143-d0f8" name="Artillerist" hidden="false" collective="false" import="true" targetId="a926-b134-e050-fe94" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="baba-c663-8f4b-2cbc" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1418-09a7-1ba8-969e" name="Champion of Faith" hidden="false" collective="false" import="true" targetId="61bb-104c-0968-dd27" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1d42-1731-d92f-5c2d" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="81d5-a4b6-cdcc-80b6" name="Dhamphir" hidden="false" collective="false" import="true" targetId="b258-0eac-f396-1087" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e26e-765a-aec0-a9c0" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+        <categoryLink id="6829-a8b3-b040-77a3" name="Supernatural Being" hidden="false" targetId="be56-0143-a6e6-26e1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c397-1a7c-82f7-756c" name="Doctor" hidden="false" collective="false" import="true" targetId="91e3-d3b4-f375-2b64" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="abc3-839f-ee67-1e6c" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3f66-c749-3043-8972" name="Grenadier" hidden="false" collective="false" import="true" targetId="cc2b-e264-2288-ac0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3c89-fdfc-9be2-386c" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ead9-5bad-197a-a464" name="Guard" hidden="false" collective="false" import="true" targetId="48c7-2ed1-cc2c-874e" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3e00-600e-d33e-8848" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aec5-7719-07fa-b0c2" name="Heavy Cavalryman" hidden="false" collective="false" import="true" targetId="4448-c632-3175-7427" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4242-3d20-6f04-25b3" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6292-4122-c051-c8c9" name="Highlander" hidden="false" collective="false" import="true" targetId="0b9e-5179-5759-226b" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f7ba-df08-5118-f5b8" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7801-ded9-e94f-cc5d" name="Irregular" hidden="false" collective="false" import="true" targetId="da06-c63c-6c01-daf9" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5d5a-8b55-48eb-440c" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4ab5-90b9-2fce-5352" name="Junior Officer" hidden="false" collective="false" import="true" targetId="8c28-34b0-5150-8657" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="55a8-04b8-b6d7-e23c" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="20b9-d2b9-96ec-3825" name="Light Cavalryman" hidden="false" collective="false" import="true" targetId="a1d9-1d71-8c37-55d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="71c0-19cf-4b89-7a78" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c4e-efef-7af7-b6bf" name="Marine" hidden="false" collective="false" import="true" targetId="ab10-e59d-ca1e-5e48" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="cea4-9fa6-ce36-7add" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2374-438e-8fe0-f94c" name="Native Scout" hidden="false" collective="false" import="true" targetId="a7f0-b273-9ea7-6838" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="64cd-c3d2-496e-003d" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e09-b3c2-e714-5311" name="Occultist" hidden="false" collective="false" import="true" targetId="f9c5-cc0e-72dd-3532" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f26e-f3b7-63b4-ae1e" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="31d6-80db-ea81-0ee6" name="Rifleman" hidden="false" collective="false" import="true" targetId="4f70-03f1-633a-e935" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8e66-3ab0-273d-0d27" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1b8-13e6-1885-0d03" name="Sailor" hidden="false" collective="false" import="true" targetId="5bbf-d409-8922-44b6" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a026-9fd0-52b8-9622" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e26-126d-b118-54b4" name="Sapper" hidden="false" collective="false" import="true" targetId="e0d4-17a0-ac03-cd46" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7c4f-4382-be0c-ce95" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f8e7-1a01-866a-7c79" name="Supernatural Investigator" hidden="false" collective="false" import="true" targetId="d43c-8ab4-b416-eb51" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4db1-6fec-64d7-09b2" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4a3a-f0c5-6fdb-e415" name="Swordsman" hidden="false" collective="false" import="true" targetId="a695-aaea-c7ad-fa71" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="128e-3673-f2c8-5cee" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f742-0d11-a14c-7d0f" name="Tactician" hidden="false" collective="false" import="true" targetId="16b6-79a8-e5f7-a126" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a7b7-9c6e-93f2-ffb9" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0f4-2672-c0b2-b620" name="Veteran Hunter" hidden="false" collective="false" import="true" targetId="71a6-dc78-ab82-36de" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4021-470f-5a29-b629" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ace2-f240-b01b-2b7d" name="Vivandiere" hidden="false" collective="false" import="true" targetId="7179-86a4-a2b8-f3fa" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a129-f2b8-2326-d101" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f82-edd0-2e12-cb7f" name="Werebear" hidden="false" collective="false" import="true" targetId="4a9d-555c-bab7-b500" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a73c-410f-916c-e89b" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+        <categoryLink id="76c2-c4f7-1947-f3ea" name="Supernatural Being" hidden="false" targetId="be56-0143-a6e6-26e1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="64b7-e274-7d3b-6b3a" name="Coachman" hidden="false" collective="false" import="true" targetId="7685-6906-1006-f7c1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="433d-251b-6be7-03a7" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cff2-4f10-7917-a7cb" name="Highwayman" hidden="false" collective="false" import="true" targetId="2b0f-49c8-cec0-1e7b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="72ef-6f79-eaf7-bb6f" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b47-2258-3da8-2c07" name="Woodsman" hidden="false" collective="false" import="true" targetId="2aaf-a6a2-8365-f88b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9e99-ffc8-e66a-03b0" name="New CategoryLink" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4f0f-4535-726d-046a" name="Bedouin Raider" hidden="false" collective="false" import="true" targetId="8733-e806-b194-b6fc" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="c473-b87c-9624-84fa" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1e11-9329-c31f-c266" name="Discovery Serviceman" hidden="false" collective="false" import="true" targetId="896e-7b40-4801-2f05" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9f0e-4492-e4cd-b213" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="556c-faa4-4b16-81d9" name="Egyptian Conscript" hidden="false" collective="false" import="true" targetId="20a1-d9de-8db6-670f" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="585a-6909-d9d6-709a" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b673-b139-9432-75ae" name="Follower of the Old Gods" hidden="false" collective="false" import="true" targetId="3119-64e9-2664-4a75" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="d353-6785-d4f5-9f98" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5515-d37b-bb59-e421" name="Janissary" hidden="false" collective="false" import="true" targetId="c894-7a77-270f-ee4f" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7cd3-2b0d-341c-ed57" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e4b4-5f04-1881-e966" name="Knight Hospitaller" hidden="false" collective="false" import="true" targetId="2ae4-1fa9-74a4-7b31" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="b34f-0770-c98b-840f" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b307-776f-83d2-88d9" name="Loup Garou" hidden="false" collective="false" import="true" targetId="3e3a-c786-528c-2b34" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="bce4-0c2b-1a2a-a269" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+        <categoryLink id="2e6d-1651-2a14-d273" name="Supernatural Being" hidden="false" targetId="be56-0143-a6e6-26e1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="25ac-7214-68e9-b68d" name="Mameluke" hidden="false" collective="false" import="true" targetId="9e5e-dc5f-ebdd-d7f8" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7992-191d-6364-4d4c" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
