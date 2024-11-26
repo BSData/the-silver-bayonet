@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is a fan project. Please support The Silver Bayonet by purchasing official materials.</readme>
   <publications>
     <publication id="2908-69b7-1753-ac98" name="The Silver Bayonet" shortName="TSB"/>
