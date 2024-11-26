@@ -2615,7 +2615,16 @@ Standard games use 100 point warbands.</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </entryLink>
-        <entryLink id="e974-d585-7466-e8c6" name="Oil &amp; Torches" hidden="false" collective="false" import="true" targetId="b66f-9bb9-78a1-f37c" type="selectionEntry"/>
+        <entryLink id="e974-d585-7466-e8c6" name="Oil &amp; Torches" hidden="false" collective="false" import="true" targetId="b66f-9bb9-78a1-f37c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49e-dcdc-362f-36a9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b5a3-3fec-83dc-296c" name="Salt Bag" hidden="false" collective="false" import="true" targetId="a758-cd16-3dc3-1fa3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4196-96e0-1e3a-4d50" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="dae3-ef09-e949-dda8" name="Officer Attributes" hidden="false" collective="false" import="true">
