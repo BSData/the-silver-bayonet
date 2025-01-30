@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is a fan project. Please support The Silver Bayonet by purchasing official materials.</readme>
   <publications>
     <publication id="2908-69b7-1753-ac98" name="The Silver Bayonet" shortName="TSB"/>
@@ -139,6 +139,11 @@ Standard games use 100 point warbands.</comment>
             <modifier type="set" field="75ed-68e4-b07d-0b14" value="13">
               <conditions>
                 <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cffc-fc9b-976d-0d43" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="7e6b-dae4-5a96-a8fd" value="1">
+              <conditions>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -376,7 +381,7 @@ Standard games use 100 point warbands.</comment>
             <characteristic name="Eq. Slots" typeId="36bd-a429-cf64-da8c">1</characteristic>
             <characteristic name="Range" typeId="f345-8a81-e6d7-fd3b"/>
             <characteristic name="Damage" typeId="43b3-db09-4088-1505"/>
-            <characteristic name="Notes" typeId="2080-74e8-0e00-4ae9">Gives the wearer Armour (1).</characteristic>
+            <characteristic name="Notes" typeId="2080-74e8-0e00-4ae9">Gives the wearer Armour (1) and -1 Speed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -714,6 +719,13 @@ Standard games use 100 point warbands.</comment>
       </constraints>
       <profiles>
         <profile id="9eba-5609-c53c-c87e" name="Dhamphir" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
+          <modifiers>
+            <modifier type="decrement" field="7e6b-dae4-5a96-a8fd" value="1">
+              <conditions>
+                <condition field="selections" scope="b258-0eac-f396-1087" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">7</characteristic>
             <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+2</characteristic>
@@ -861,7 +873,7 @@ Standard games use 100 point warbands.</comment>
         </entryLink>
         <entryLink id="85fc-c53e-3f06-5dd9" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d381-8395-bb79-24d4" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d381-8395-bb79-24d4" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1767,6 +1779,13 @@ Standard games use 100 point warbands.</comment>
       </constraints>
       <profiles>
         <profile id="1ee1-16bb-ffcf-cf8c" name="Veteran Hunter" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
+          <modifiers>
+            <modifier type="decrement" field="7e6b-dae4-5a96-a8fd" value="1">
+              <conditions>
+                <condition field="selections" scope="71a6-dc78-ab82-36de" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
             <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+2</characteristic>

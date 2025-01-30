@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0934-76b7-1c7c-93d2" name="Trading Companies" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f347-af68-8218-d8fc" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0934-76b7-1c7c-93d2" name="Trading Companies" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="f347-af68-8218-d8fc" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b20e-4ccb-4054-a5fe" name="Supernatural Being" hidden="false">
       <constraints>
@@ -146,7 +146,7 @@
         <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5ff1-f1fd-ba0a-aa32" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+        <categoryLink id="acf8-7507-14b3-0128" name="New CategoryLink" hidden="false" targetId="5fb2-a7cf-c16d-8400" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0241-f977-173e-873b" name="Guard" hidden="false" collective="false" import="true" targetId="48c7-2ed1-cc2c-874e" type="selectionEntry">
@@ -178,7 +178,7 @@
         <modifier type="increment" field="7573-df2a-2bd0-f646" value="8.0"/>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="2687-2797-7d57-9b1c" name="New CategoryLink" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="true"/>
+        <categoryLink id="e9ca-86a6-51e9-7814" name="New CategoryLink" hidden="false" targetId="5fb2-a7cf-c16d-8400" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4b7e-927f-c6ec-82d1" name="Rifleman" hidden="false" collective="false" import="true" targetId="4f70-03f1-633a-e935" type="selectionEntry">
