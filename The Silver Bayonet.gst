@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is a fan project. Please support The Silver Bayonet by purchasing official materials.</readme>
   <publications>
     <publication id="2908-69b7-1753-ac98" name="The Silver Bayonet" shortName="TSB"/>
@@ -569,7 +569,7 @@ Standard games use 100 point warbands.</comment>
       <profiles>
         <profile id="ef6f-f41b-3101-dece" name="Holy Symbol" publicationId="2908-69b7-1753-ac98" page="24" hidden="false" typeId="7c54-05c3-c102-51ce" typeName="Equipment">
           <characteristics>
-            <characteristic name="Description" typeId="0956-cc24-4b0d-7cac">Carrying a holy symbol confers special protections against some creatures. Holy symbols take up one equipment lsot.</characteristic>
+            <characteristic name="Description" typeId="0956-cc24-4b0d-7cac">Carrying a holy symbol confers special protections against some creatures. Holy symbols take up one equipment slot.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2634,7 +2634,7 @@ Standard games use 100 point warbands.</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </entryLink>
-        <entryLink id="e974-d585-7466-e8c6" name="Oil &amp; Torches" hidden="false" collective="false" import="true" targetId="b66f-9bb9-78a1-f37c" type="selectionEntry">
+        <entryLink id="e974-d585-7466-e8c6" name="Holy Symbol" hidden="false" collective="false" import="true" targetId="8f20-2a12-309a-6ccf" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49e-dcdc-362f-36a9" type="max"/>
           </constraints>
@@ -2642,6 +2642,11 @@ Standard games use 100 point warbands.</comment>
         <entryLink id="b5a3-3fec-83dc-296c" name="Salt Bag" hidden="false" collective="false" import="true" targetId="a758-cd16-3dc3-1fa3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4196-96e0-1e3a-4d50" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4e7b-8ffd-d6c3-7d04" name="Oil &amp; Torches" hidden="false" collective="false" import="true" targetId="b66f-9bb9-78a1-f37c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a428-b5f9-3627-6530" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
