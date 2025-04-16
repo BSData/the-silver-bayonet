@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is a fan project. Please support The Silver Bayonet by purchasing official materials.</readme>
   <publications>
     <publication id="2908-69b7-1753-ac98" name="The Silver Bayonet" shortName="TSB"/>
@@ -1528,20 +1528,20 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="22d3-c3e2-94fc-3482" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9e-b671-8773-e2f3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d832-4935-f388-bf41" type="max"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9e-b671-8773-e2f3" type="min"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d832-4935-f388-bf41" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0e7d-b0fc-f08b-3295" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b749-2eeb-3cbe-a8f6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee8-f80b-3c87-9b31" type="max"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b749-2eeb-3cbe-a8f6" type="min"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee8-f80b-3c87-9b31" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="d557-5f2a-aef0-2d6d" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="a75b-f129-bc66-3892" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f9-df6e-e997-f535" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f151-9002-e435-d87c" type="max"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f9-df6e-e997-f535" type="min"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f151-9002-e435-d87c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="428b-eeca-2d4e-ca69" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
