@@ -2804,10 +2804,7 @@ Standard games use 100 point warbands.</comment>
         <entryLink import="true" name="Hand Weapon" hidden="false" id="2179-e5a5-b2fe-8ca2" type="selectionEntry" targetId="6d9c-1ee1-154f-841f"/>
         <entryLink import="true" name="Pistol" hidden="false" id="8617-805d-1e38-e548" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
         <entryLink import="true" name="Pistol" hidden="false" id="ceef-6940-5ca9-9152" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
-        <entryLink import="true" name="Special Armoury" hidden="false" id="a5e6-1d49-911c-e303" type="selectionEntryGroup" targetId="9364-0275-bc64-8709">
-          <comment>
-</comment>
-        </entryLink>
+        <entryLink import="true" name="Special Armoury" hidden="false" id="a5e6-1d49-911c-e303" type="selectionEntryGroup" targetId="9364-0275-bc64-8709"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3491,6 +3488,50 @@ If the figure with this attribute is behind substantial Cover (such as a wall or
 
 
 Players are encouraged to agree on whether a piece of cover qualifies before the figure moves into contact with it.</description>
+    </rule>
+    <rule name="Blessed of Britain" id="4ce0-e999-5c73-11c6" hidden="false" publicationId="9350-fbd4-499e-4a41" page="59">
+      <description>Once per game, if this figure is on the table, the player may convert one Power Die in their Fate Pool into a Skill Die, or vice versa. If this is done, this figure gains back up to 3 points of lost Health.</description>
+    </rule>
+    <rule name="Chaotic" id="2df3-c641-50de-bab3" hidden="false" publicationId="9350-fbd4-499e-4a41" page="59">
+      <description>If a player attempts to use a Monster Die to influence this creature’s movement, roll the die. On a 4 – 10, the die works as normal. On a 1–3, the Monster Die is discarded with no effect.</description>
+    </rule>
+    <rule name="Command Skeletal Roman Legionary" id="5b9f-38ed-4637-c8fe" hidden="false" publicationId="9350-fbd4-499e-4a41" page="59">
+      <description>While a figure possessing this Attribute is on the table, all Skeletal Roman Legionaries gain +1 Speed, +1 Courage, and the Strong Attribute.</description>
+    </rule>
+    <rule name="Ethereal Cavalry" id="8b73-06a5-c1f2-10e8" hidden="false" publicationId="9350-fbd4-499e-4a41" page="59">
+      <description>All the cavalry rules for Melee and Shooting apply to this figure, but none of the movement rules. Instead, this figure counts as having the Ethereal attribute and can move through walls, buildings, and even up stairs with no penalty. Ethereal cavalry can never dismount.</description>
+    </rule>
+    <rule name="Flitting Movement" id="862e-b055-1b9a-585a" hidden="false" publicationId="9350-fbd4-499e-4a41" page="59">
+      <description>When activating a figure with this Attribute, first move it 6” in a random direction, then determine its actions. This random movement cannot take it off the table. If it moves into another figure, continue to move it along the same line until they are at least 1” away from all other figures.</description>
+    </rule>
+    <rule name="Frenzy" id="f3ee-576e-96e1-afdf" hidden="false" publicationId="9350-fbd4-499e-4a41" page="60">
+      <description>If this figure makes a Melee Attack that causes damage, then its opponent may only Back Off, it may not Strike Back. Additionally, if a player wishes to use a Monster Die to change the movement of this creature, it may only do so if the new movement is a Move to Attack.</description>
+    </rule>
+    <rule name="Head-Taker" id="f28c-a943-4e8d-077b" hidden="false" publicationId="9350-fbd4-499e-4a41" page="60">
+      <description>Any unit member reduced to 0 Health by this figure suffers -1 to its roll on the Injury and Death Table after the game.</description>
+    </rule>
+    <rule name="Induce Terror" id="801d-f77c-70e4-89d7" hidden="false" publicationId="9350-fbd4-499e-4a41" page="60">
+      <description>Any time a figure activates within line of sight of this creature, it must make a Terror Check. If the figure is more than 8” away, it is a Terror Check (-1). If the figure is 8” or closer, it’s a Terror Check (-3).</description>
+    </rule>
+    <rule name="Powerful Jaws" id="c536-f606-3f66-d979" hidden="false" publicationId="9350-fbd4-499e-4a41" page="60">
+      <description>When this figure hits with a Melee Attack, it uses the higher result from either the Power Die or Skill Die to determine damage.</description>
+    </rule>
+    <rule name="Reanimate" id="b492-f183-0c31-8185" hidden="false" publicationId="9350-fbd4-499e-4a41" page="60">
+      <description>If this figure is reduced to 0 Health by a Blessed or Fire Attack, remove it from the table as normal. Otherwise, leave the figure on the table on its side. At the end of each turn, roll a die. On a ‘10’, stand this figure back up and give it 1 Health. It will follow its normal rules. If a figure with a Blessed or Fire Attack moves into contact with this figure while it is on its side, remove it from the table.</description>
+    </rule>
+    <rule name="Scourge of Britain" id="bae8-e2ec-7ae5-ac99" hidden="false" publicationId="9350-fbd4-499e-4a41" page="61">
+      <description>Once per game, if this figure is on the table, the player may convert one Skill Die or Fate Die in their Fate Pool into a Monster Die. If this is done, this figure gains back up to 3 lost Health.</description>
+    </rule>
+    <rule name="Weather Control" id="d8f7-7f9a-2692-cc47" hidden="false" publicationId="9350-fbd4-499e-4a41" page="61">
+      <description>At the end of each turn that this figure is on the table, roll a die on the Weather Control Table below and apply the effects for the next turn.
+
+
+WEATHER CONTROL TABLE
+Die Roll | Effect
+1–3 | Wind: All Shooting Attacks are at -2.
+4–6 | Rain: All Shooting Attacks that roll nothing but ‘1 and 2’s on the dice are treated as critical failures.
+7–8 | Ice: All Sprint checks are at -4. Additionally, if the total of the roll is 0 or less, the figure falls over. It does not move any additional amount for the Sprint and immediately suffers 2 points of damage. This effect lasts until the end of the scenario.
+9–10 | Lightning Strike: Roll the Power Die. The unit member standing closest to the figure with the Weather Control Attribute immediately suffers this amount of damage. The player whose figure suffers the strike may use a Power Die from their Fate Pool to reroll this damage.</description>
     </rule>
   </sharedRules>
 </gameSystem>
