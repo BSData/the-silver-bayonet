@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="4424-455b-170e-9a43" name="Kingdom of Naples (Bourbon)" gameSystemId="f347-af68-8218-d8fc" gameSystemRevision="6" revision="1" battleScribeVersion="2.03" publicationId="8413-013f-4c33-66cd" page="26" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Artillerist" hidden="false" id="ed6e-b333-8689-e2df" type="selectionEntry" targetId="a926-b134-e050-fe94"/>
+    <entryLink import="true" name="Champion of Faith" hidden="false" id="9a6a-cccf-599e-a890" type="selectionEntry" targetId="61bb-104c-0968-dd27"/>
+    <entryLink import="true" name="Doctor" hidden="false" id="7f6c-ddcd-c318-e295" type="selectionEntry" targetId="91e3-d3b4-f375-2b64"/>
+    <entryLink import="true" name="Grenadier" hidden="false" id="cabe-a7a7-15b6-68b6" type="selectionEntry" targetId="cc2b-e264-2288-ac0a"/>
+    <entryLink import="true" name="Infantryman" hidden="false" id="8714-3ae4-f819-a799" type="selectionEntry" targetId="ebdd-e082-edfa-f12c"/>
+    <entryLink import="true" name="Irregular" hidden="false" id="975e-53e4-6baf-a9cf" type="selectionEntry" targetId="da06-c63c-6c01-daf9"/>
+    <entryLink import="true" name="Junior Officer" hidden="false" id="0b5a-f0aa-a854-7bc1" type="selectionEntry" targetId="8c28-34b0-5150-8657"/>
+    <entryLink import="true" name="Light Cavalryman" hidden="false" id="5a4c-1b33-334c-3932" type="selectionEntry" targetId="a1d9-1d71-8c37-55d3"/>
+    <entryLink import="true" name="Native Scout" hidden="false" id="f41d-02e5-f38e-193f" type="selectionEntry" targetId="a7f0-b273-9ea7-6838"/>
+    <entryLink import="true" name="Sapper" hidden="false" id="5088-3100-2e95-3847" type="selectionEntry" targetId="e0d4-17a0-ac03-cd46"/>
+    <entryLink import="true" name="Supernatural Investigator" hidden="false" id="0df0-3dbd-1a1f-1219" type="selectionEntry" targetId="d43c-8ab4-b416-eb51"/>
+    <entryLink import="true" name="Swordsman" hidden="false" id="2df9-a13f-9933-b937" type="selectionEntry" targetId="a695-aaea-c7ad-fa71"/>
+    <entryLink import="true" name="Veteran Hunter" hidden="false" id="190a-b968-d2f3-0a3e" type="selectionEntry" targetId="71a6-dc78-ab82-36de"/>
+    <entryLink import="true" name="Agent Provocateur" hidden="false" id="9098-45b0-b80f-58f7" type="selectionEntry" targetId="56e8-63bd-e221-4431"/>
+    <entryLink import="true" name="Conscript" hidden="false" id="4ab5-ab5f-3107-e3d2" type="selectionEntry" targetId="89aa-4808-5814-2663"/>
+    <entryLink import="true" name="Provincial Soldier" hidden="false" id="2c10-5c8a-b6fa-5b52" type="selectionEntry" targetId="c004-ab7d-1618-f9eb"/>
+    <entryLink import="true" name="Coachman" hidden="false" id="c34e-708b-8fd5-b0ff" type="selectionEntry" targetId="7685-6906-1006-f7c1"/>
+    <entryLink import="true" name="Light Infantryman" hidden="false" id="c71b-aa18-4513-bc11" type="selectionEntry" targetId="3083-010b-bc14-c22d"/>
+    <entryLink import="true" name="Officer" hidden="false" id="1214-78ac-8b42-e88e" type="selectionEntry" targetId="c724-1052-55ac-963f"/>
+  </entryLinks>
+</catalogue>

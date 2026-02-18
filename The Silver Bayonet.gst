@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f347-af68-8218-d8fc" name="The Silver Bayonet" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <readme>This is a fan project. Please support The Silver Bayonet by purchasing official materials.</readme>
   <publications>
     <publication id="2908-69b7-1753-ac98" name="The Silver Bayonet" shortName="TSB"/>
-    <publication id="d70c-5fd1-01fb-ce8b" name="The Silver Bayonet - Carpathians - Return to Castle Fier" shortName="Carpathians"/>
+    <publication id="d70c-5fd1-01fb-ce8b" name="The Silver Bayonet - Carpathians: Return to Castle Fier" shortName="Carpathians"/>
     <publication id="d0dd-0e41-d528-8241" name="The Silver Bayonet - Canada" shortName="Canada"/>
     <publication id="91f1-e705-cedf-43aa" name="The Silver Bayonet - Egypt" shortName="Egypt"/>
+    <publication name="The Silver Bayonet - Britain: Bones of Albion" id="9350-fbd4-499e-4a41" hidden="false" shortName="Britain"/>
+    <publication name="The Silver Bayonet - Italy: Shades of Calabria" id="8413-013f-4c33-66cd" hidden="false" shortName="Italy"/>
   </publications>
   <costTypes>
-    <costType id="7573-df2a-2bd0-f646" name=" Pts" defaultCostLimit="-1.0" hidden="false"/>
-    <costType id="8c7b-4b10-e857-234a" name=" Eq. Slots" defaultCostLimit="-1.0" hidden="true"/>
+    <costType id="7573-df2a-2bd0-f646" name=" Pts" defaultCostLimit="-1" hidden="false"/>
+    <costType id="8c7b-4b10-e857-234a" name=" Eq. Slots" defaultCostLimit="-1" hidden="true"/>
   </costTypes>
   <profileTypes>
     <profileType id="ecd0-660c-6b4c-ce8b" name="Individual">
@@ -50,14 +52,14 @@ Standard games use 100 point warbands.</comment>
       <categoryLinks>
         <categoryLink id="d590-b8a5-cbfe-8879" name="Leader" hidden="false" targetId="7f0d-d1d2-fafc-4762" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0fb-5c7d-6834-7a62" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6634-6b31-7435-7b87" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0fb-5c7d-6834-7a62" type="min"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6634-6b31-7435-7b87" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="f3a7-d856-782e-f902" name="Core" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="false"/>
         <categoryLink id="b754-32d1-ef42-414c" name="Ally" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afe-6e5b-4697-1b5f" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afe-6e5b-4697-1b5f" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -68,15 +70,15 @@ Standard games use 100 point warbands.</comment>
       <categoryLinks>
         <categoryLink id="2e4e-0d55-bf47-34fe" name="Ally" hidden="false" targetId="df4a-c929-4c6c-bfe6" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da4a-5dd1-46bd-c521" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da4a-5dd1-46bd-c521" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="75a7-5776-81a6-483f" name="Core" hidden="false" targetId="84f4-27ba-0901-7f9b" primary="false"/>
         <categoryLink id="e308-e28d-82ca-580a" name="Core - Additional" hidden="false" targetId="5fb2-a7cf-c16d-8400" primary="false"/>
         <categoryLink id="a437-f6a9-0c57-51fd" name="Leader" hidden="false" targetId="7f0d-d1d2-fafc-4762" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f41-a258-e9d4-9503" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c5-ebfe-9b60-13fa" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f41-a258-e9d4-9503" type="min"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c5-ebfe-9b60-13fa" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -85,31 +87,31 @@ Standard games use 100 point warbands.</comment>
   <selectionEntries>
     <selectionEntry id="2ef7-ef39-f230-5df0" name="Manual Check - Roster does not exceed Officer&apos;s Recruitment value" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d8-9bbb-5ddd-f897" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d0d-353f-b222-377d" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d8-9bbb-5ddd-f897" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d0d-353f-b222-377d" type="min"/>
       </constraints>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="513a-df97-1b11-0fda" name="Manual Check - Max 7 soldiers" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e4-3c70-10c1-1758" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c03-4b72-4d7a-21bb" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e4-3c70-10c1-1758" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c03-4b72-4d7a-21bb" type="min"/>
       </constraints>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="c724-1052-55ac-963f" name="Officer" publicationId="2908-69b7-1753-ac98" page="16-20" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="decrement" field="7573-df2a-2bd0-f646" value="5.0">
+        <modifier type="decrement" field="7573-df2a-2bd0-f646" value="5">
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea0a-51c1-dd7c-6381" type="equalTo"/>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea0a-51c1-dd7c-6381" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -118,32 +120,32 @@ Standard games use 100 point warbands.</comment>
           <modifiers>
             <modifier type="set" field="4d70-346d-670e-3f6c" value="+3">
               <conditions>
-                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="44d5-4082-a1d1-cdf8" type="equalTo"/>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="44d5-4082-a1d1-cdf8" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="5ea4-0adf-341d-833e" value="+2">
               <conditions>
-                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c19-b335-9351-869a" type="equalTo"/>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c19-b335-9351-869a" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="b16d-2b86-57a8-df62" value="+2">
               <conditions>
-                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01cc-52e5-4b46-3206" type="equalTo"/>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01cc-52e5-4b46-3206" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="7e6b-dae4-5a96-a8fd" value="7">
               <conditions>
-                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5de-bda0-f0af-332c" type="equalTo"/>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5de-bda0-f0af-332c" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="75ed-68e4-b07d-0b14" value="13">
               <conditions>
-                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cffc-fc9b-976d-0d43" type="equalTo"/>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cffc-fc9b-976d-0d43" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="decrement" field="7e6b-dae4-5a96-a8fd" value="1">
               <conditions>
-                <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
+                <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -159,103 +161,103 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e52d-87f1-60a9-5f63" name="New CategoryLink" hidden="false" targetId="7f0d-d1d2-fafc-4762" primary="true"/>
+        <categoryLink id="e52d-87f1-60a9-5f63" name="Leader" hidden="false" targetId="7f0d-d1d2-fafc-4762" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ba9-246b-e789-0478" name="Equipment" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="8c7b-4b10-e857-234a" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b330-0761-7a34-4a3f" type="max"/>
+            <constraint field="8c7b-4b10-e857-234a" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b330-0761-7a34-4a3f" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="ab9d-ab15-830e-762d" name="General Armoury" hidden="false" collective="false" import="true" targetId="9a61-9ac8-9932-2ffd" type="selectionEntryGroup"/>
             <entryLink id="4d68-bf3f-30e9-7162" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="7f46-eafa-38ff-9036" value="3.0">
+                <modifier type="set" field="7f46-eafa-38ff-9036" value="3">
                   <conditions>
-                    <condition field="selections" scope="c724-1052-55ac-963f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
+                    <condition field="selections" scope="c724-1052-55ac-963f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f46-eafa-38ff-9036" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f46-eafa-38ff-9036" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="6123-b4b4-ed48-90de" name="Stats - Melee / Accuracy" hidden="false" collective="false" import="true" defaultSelectionEntryId="01cc-52e5-4b46-3206">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d89-93cb-d1d5-c7e4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56c5-ba9d-a951-3fcd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d89-93cb-d1d5-c7e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56c5-ba9d-a951-3fcd" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="01cc-52e5-4b46-3206" name="Melee + 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa50-9e0a-b54e-8ecd" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa50-9e0a-b54e-8ecd" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c19-b335-9351-869a" name="Accuracy + 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a57f-5b80-3d41-6676" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a57f-5b80-3d41-6676" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9b81-141e-e299-a30d" name="Stats - Speed / Health" hidden="false" collective="false" import="true" defaultSelectionEntryId="cffc-fc9b-976d-0d43">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8724-cd1e-3518-6f33" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee68-5a3c-ab2f-7566" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8724-cd1e-3518-6f33" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee68-5a3c-ab2f-7566" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="cffc-fc9b-976d-0d43" name="Health + 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfea-d3ff-3179-c005" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfea-d3ff-3179-c005" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f5de-bda0-f0af-332c" name="Speed + 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e073-5c98-87e5-e805" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e073-5c98-87e5-e805" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="680b-5978-8c46-93c0" name="Stats - Courage / Recruitment" hidden="false" collective="false" import="true" defaultSelectionEntryId="44d5-4082-a1d1-cdf8">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3de-1355-3210-72c2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-12b4-2247-3aaf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3de-1355-3210-72c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-12b4-2247-3aaf" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="44d5-4082-a1d1-cdf8" name="Courage + 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b506-c6ef-8d84-b140" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b506-c6ef-8d84-b140" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea0a-51c1-dd7c-6381" name="Recruitment +(5)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4388-3df3-d51a-0543" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4388-3df3-d51a-0543" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -264,13 +266,13 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="2493-8b27-61fb-d5ef" name="Officer Attributes" hidden="false" collective="false" import="true" targetId="dae3-ef09-e949-dda8" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ecb6-d1cd-6758-36b5" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ecb6-d1cd-6758-36b5" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebdd-e082-edfa-f12c" name="Infantryman" publicationId="2908-69b7-1753-ac98" page="33" hidden="false" collective="false" import="true" type="unit">
@@ -290,30 +292,30 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="8efd-8303-5322-52ec" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="813a-a1e1-704b-7455" type="min"/>
-            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bfd-9565-1a71-dd51" type="max"/>
+            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="813a-a1e1-704b-7455" type="min"/>
+            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bfd-9565-1a71-dd51" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="bd12-332d-8fc4-4170" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="34a6-9c45-fd1b-992a" type="min"/>
-            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3aa-fa91-4ee6-fb19" type="max"/>
+            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="34a6-9c45-fd1b-992a" type="min"/>
+            <constraint field="selections" scope="ebdd-e082-edfa-f12c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3aa-fa91-4ee6-fb19" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="e2ad-8eb7-9de1-4027" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff21-5de2-c59c-da53" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff21-5de2-c59c-da53" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5afb-9622-e9d9-295e" name="Musket" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2020-f226-3894-fceb" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2020-f226-3894-fceb" type="max"/>
       </constraints>
       <profiles>
         <profile id="3473-354a-62f8-78bf" name="Musket" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -326,13 +328,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa26-fafd-f3c5-b83c" name="Cartridge Box" publicationId="2908-69b7-1753-ac98" page="21" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f9a0-ed10-04ee-a8ae" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f9a0-ed10-04ee-a8ae" type="max"/>
       </constraints>
       <profiles>
         <profile id="43d9-ae13-a574-4dd3" name="Cartridge Box" hidden="false" typeId="7c54-05c3-c102-51ce" typeName="Equipment">
@@ -342,19 +344,19 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="520e-a4c4-7151-e0ec" name="Recruitment" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9dd4-4b29-d260-2256" name="Blunderbuss" publicationId="2908-69b7-1753-ac98" page="21" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67aa-1fad-5e15-521d" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67aa-1fad-5e15-521d" type="max"/>
       </constraints>
       <profiles>
         <profile id="e6f2-9daf-0c0b-b244" name="Blunderbuss" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -367,13 +369,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5b5-9240-2f48-9f45" name="Breastplate" publicationId="2908-69b7-1753-ac98" page="21" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c79-48cc-2bd8-e4a6" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c79-48cc-2bd8-e4a6" type="max"/>
       </constraints>
       <profiles>
         <profile id="772f-7aaf-20e3-ae11" name="Breastplate" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -386,13 +388,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d9c-1ee1-154f-841f" name="Hand Weapon" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be5b-ada8-43a7-b4a8" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be5b-ada8-43a7-b4a8" type="max"/>
       </constraints>
       <profiles>
         <profile id="4367-a6e9-b7a6-8382" name="Hand Weapon" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -405,13 +407,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a75b-f129-bc66-3892" name="Heavy Weapon" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b9c-0205-79a4-f4b1" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b9c-0205-79a4-f4b1" type="max"/>
       </constraints>
       <profiles>
         <profile id="84aa-8175-9294-ea36" name="Heavy Weapon" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -424,13 +426,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d76-a4b0-f910-47cc" name="Improvised Weapon" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b43-22cf-287d-e54e" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b43-22cf-287d-e54e" type="max"/>
       </constraints>
       <profiles>
         <profile id="29d4-10c6-82cf-e3ee" name="Improvised Weapon" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -443,13 +445,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca5e-ad5c-1917-ceb2" name="Fencing Weapon" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c3b-df46-aa59-e322" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c3b-df46-aa59-e322" type="max"/>
       </constraints>
       <profiles>
         <profile id="0c45-2ca6-6fd2-dc0d" name="Fencing Weapon" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -462,13 +464,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="302b-2f3a-1abc-e0a9" name="Pistol" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f50-fa58-311a-3a67" type="max"/>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f50-fa58-311a-3a67" type="max"/>
       </constraints>
       <profiles>
         <profile id="b4a7-4040-8c2f-e05e" name="Pistol" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -481,13 +483,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fba7-930c-1c4b-0256" name="Rifle" publicationId="2908-69b7-1753-ac98" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a584-cf3f-2d30-6980" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a584-cf3f-2d30-6980" type="max"/>
       </constraints>
       <profiles>
         <profile id="7f3d-fdff-3b30-57a4" name="Rifle" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -500,13 +502,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50f0-cb60-e75d-9618" name="Shotbag" publicationId="2908-69b7-1753-ac98" page="23" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3ea-f834-0277-aafe" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3ea-f834-0277-aafe" type="max"/>
       </constraints>
       <profiles>
         <profile id="9685-1545-442e-dacf" name="Shotbag" hidden="false" typeId="7c54-05c3-c102-51ce" typeName="Equipment">
@@ -516,13 +518,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b06-1854-e831-1a18" name="Volley Gun" publicationId="2908-69b7-1753-ac98" page="23" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4587-e86c-d78d-ebc7" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4587-e86c-d78d-ebc7" type="max"/>
       </constraints>
       <profiles>
         <profile id="8a41-383d-f1c9-dde1" name="Volley Gun" hidden="false" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour">
@@ -535,8 +537,8 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7163-5fdc-9379-dd49" name="Cold Iron Shot" publicationId="2908-69b7-1753-ac98" page="24" hidden="false" collective="false" import="true" type="upgrade">
@@ -548,8 +550,8 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9da7-d2b9-0b42-b514" name="Cold Iron Weapon" publicationId="2908-69b7-1753-ac98" page="24" hidden="false" collective="false" import="true" type="upgrade">
@@ -561,8 +563,8 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f20-2a12-309a-6ccf" name="Holy Symbol" publicationId="2908-69b7-1753-ac98" page="24" hidden="false" collective="false" import="true" type="upgrade">
@@ -574,13 +576,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b66f-9bb9-78a1-f37c" name="Oil &amp; Torches" publicationId="2908-69b7-1753-ac98" page="25" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2d2-efee-e053-1c18" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2d2-efee-e053-1c18" type="max"/>
       </constraints>
       <profiles>
         <profile id="35ce-e187-bbf9-a740" name="Oil &amp; Torches" publicationId="2908-69b7-1753-ac98" page="25" hidden="false" typeId="7c54-05c3-c102-51ce" typeName="Equipment">
@@ -590,13 +592,13 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a758-cd16-3dc3-1fa3" name="Salt Bag" publicationId="2908-69b7-1753-ac98" page="25" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06ff-875d-5831-11f6" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06ff-875d-5831-11f6" type="max"/>
       </constraints>
       <profiles>
         <profile id="850c-1cb3-e6ec-5e4c" name="Salt Bag" publicationId="2908-69b7-1753-ac98" page="25" hidden="false" typeId="7c54-05c3-c102-51ce" typeName="Equipment">
@@ -606,8 +608,8 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e35f-30e6-8b2d-ad31" name="Silver Shot" publicationId="2908-69b7-1753-ac98" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -619,8 +621,8 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7438-1374-9652-aa88" name="Silver Weapon" publicationId="2908-69b7-1753-ac98" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -632,8 +634,8 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a926-b134-e050-fe94" name="Artillerist" publicationId="2908-69b7-1753-ac98" page="29" hidden="false" collective="false" import="true" type="unit">
@@ -656,25 +658,25 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="f083-493f-9143-9639" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="a926-b134-e050-fe94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7756-2339-4f2b-4afd" type="min"/>
-            <constraint field="selections" scope="a926-b134-e050-fe94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39f2-2130-7bc9-ea2e" type="max"/>
+            <constraint field="selections" scope="a926-b134-e050-fe94" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7756-2339-4f2b-4afd" type="min"/>
+            <constraint field="selections" scope="a926-b134-e050-fe94" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39f2-2130-7bc9-ea2e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="1923-8936-b145-630c" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="a926-b134-e050-fe94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8a0-943d-5428-db05" type="min"/>
-            <constraint field="selections" scope="a926-b134-e050-fe94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="742b-88a8-62eb-4c3b" type="max"/>
+            <constraint field="selections" scope="a926-b134-e050-fe94" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8a0-943d-5428-db05" type="min"/>
+            <constraint field="selections" scope="a926-b134-e050-fe94" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="742b-88a8-62eb-4c3b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="51b1-1273-7444-cbc7" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff17-f646-7c93-4eb2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff17-f646-7c93-4eb2" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61bb-104c-0968-dd27" name="Champion of Faith" publicationId="2908-69b7-1753-ac98" page="29" hidden="false" collective="false" import="true" type="unit">
@@ -693,36 +695,36 @@ Standard games use 100 point warbands.</comment>
       </profiles>
       <infoLinks>
         <infoLink id="b992-3228-940d-1102" name="Miracles" hidden="false" targetId="024c-66c7-b621-7886" type="rule"/>
-        <infoLink id="7418-dd5f-870c-5e7f" name="Supernatural Veteran" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
+        <infoLink id="7418-dd5f-870c-5e7f" name="Supernatural Veteran (O)" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="c681-da6d-81fb-e9ab" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="61bb-104c-0968-dd27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c97-a6ee-1a58-96d6" type="min"/>
-            <constraint field="selections" scope="61bb-104c-0968-dd27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e40-8fd0-0250-fbcf" type="max"/>
+            <constraint field="selections" scope="61bb-104c-0968-dd27" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c97-a6ee-1a58-96d6" type="min"/>
+            <constraint field="selections" scope="61bb-104c-0968-dd27" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e40-8fd0-0250-fbcf" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c94a-19c8-c8a1-5c57" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1571-bcd4-23fd-e96b" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1571-bcd4-23fd-e96b" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b258-0eac-f396-1087" name="Dhamphir" publicationId="2908-69b7-1753-ac98" page="30" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="936f-d898-467d-3073" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="936f-d898-467d-3073" type="max"/>
       </constraints>
       <profiles>
         <profile id="9eba-5609-c53c-c87e" name="Dhamphir" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
           <modifiers>
             <modifier type="decrement" field="7e6b-dae4-5a96-a8fd" value="1">
               <conditions>
-                <condition field="selections" scope="b258-0eac-f396-1087" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
+                <condition field="selections" scope="b258-0eac-f396-1087" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -738,28 +740,28 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fe30-1487-3109-de2b" name="Indefatigable" hidden="false" targetId="dca2-2f1b-7cfe-ff4c" type="rule"/>
-        <infoLink id="94aa-1b55-5e7b-b508" name="Damage Reduction" hidden="false" targetId="f5a4-f959-65fc-791b" type="rule"/>
-        <infoLink id="db68-b0d1-0544-b7ae" name="Strong" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
+        <infoLink id="fe30-1487-3109-de2b" name="Indefatigable (O)" hidden="false" targetId="dca2-2f1b-7cfe-ff4c" type="rule"/>
+        <infoLink id="94aa-1b55-5e7b-b508" name="Damage Reduction (X)" hidden="false" targetId="f5a4-f959-65fc-791b" type="rule"/>
+        <infoLink id="db68-b0d1-0544-b7ae" name="Strong (O)" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d7da-3e0b-98e1-28b8" name="Equipment" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="8c7b-4b10-e857-234a" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2d9-fbd8-69d7-e721" type="max"/>
+            <constraint field="8c7b-4b10-e857-234a" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2d9-fbd8-69d7-e721" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="156d-2404-3b45-6d49" name="General Armoury" hidden="false" collective="false" import="true" targetId="9a61-9ac8-9932-2ffd" type="selectionEntryGroup"/>
             <entryLink id="667a-7e39-6e9d-0e55" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4298-b590-6b2c-9464" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4298-b590-6b2c-9464" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91e3-d3b4-f375-2b64" name="Doctor" publicationId="2908-69b7-1753-ac98" page="30" hidden="false" collective="false" import="true" type="unit">
@@ -777,30 +779,30 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="73a0-02e5-4a45-f8de" name="Medic" hidden="false" targetId="6c7c-8168-0484-3e73" type="rule"/>
+        <infoLink id="73a0-02e5-4a45-f8de" name="Medic (O)" hidden="false" targetId="6c7c-8168-0484-3e73" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="f829-58d1-b535-96b9" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2442-b333-cbe6-9e95" type="min"/>
-            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c0c9-1250-dfe4-8475" type="max"/>
+            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2442-b333-cbe6-9e95" type="min"/>
+            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c0c9-1250-dfe4-8475" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="770b-ac1a-08ce-2850" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55c1-0dc1-d705-196e" type="min"/>
-            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af24-3897-63ca-1a03" type="max"/>
+            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55c1-0dc1-d705-196e" type="min"/>
+            <constraint field="selections" scope="91e3-d3b4-f375-2b64" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af24-3897-63ca-1a03" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="e5d5-546f-1e94-fc30" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77aa-296e-25a8-9bba" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77aa-296e-25a8-9bba" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc2b-e264-2288-ac0a" name="Grenadier" publicationId="2908-69b7-1753-ac98" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -820,25 +822,25 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="6ab4-c576-5ffd-4854" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ad-1083-a3c1-4462" type="min"/>
-            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c5c-c727-0551-07c0" type="max"/>
+            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ad-1083-a3c1-4462" type="min"/>
+            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c5c-c727-0551-07c0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6d0c-64b1-ea4c-96ac" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265c-46b2-0b6a-e316" type="min"/>
-            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0615-cd4d-07fe-fc83" type="max"/>
+            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265c-46b2-0b6a-e316" type="min"/>
+            <constraint field="selections" scope="cc2b-e264-2288-ac0a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0615-cd4d-07fe-fc83" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6abe-25f5-c3d2-0e20" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1107-c4ac-b0b3-448d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1107-c4ac-b0b3-448d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48c7-2ed1-cc2c-874e" name="Guard" publicationId="2908-69b7-1753-ac98" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -856,30 +858,30 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ed4a-a262-fccc-2e36" name="Supernatural Veteran" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
+        <infoLink id="ed4a-a262-fccc-2e36" name="Supernatural Veteran (O)" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="8bdf-aab4-1804-411e" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8319-ad39-35fb-f8ba" type="min"/>
-            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d41f-22a4-1966-3ff7" type="max"/>
+            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8319-ad39-35fb-f8ba" type="min"/>
+            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d41f-22a4-1966-3ff7" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9651-6f5b-fcd2-9019" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f5-8eff-cd4b-84ee" type="min"/>
-            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d143-a19b-a645-39d8" type="max"/>
+            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f5-8eff-cd4b-84ee" type="min"/>
+            <constraint field="selections" scope="48c7-2ed1-cc2c-874e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d143-a19b-a645-39d8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="85fc-c53e-3f06-5dd9" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d381-8395-bb79-24d4" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d381-8395-bb79-24d4" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4448-c632-3175-7427" name="Heavy Cavalryman" publicationId="2908-69b7-1753-ac98" page="32" hidden="false" collective="false" import="true" type="unit">
@@ -897,36 +899,36 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="27c2-0100-1df4-83e3" name="Combat Rider" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
+        <infoLink id="27c2-0100-1df4-83e3" name="Combat Rider (O)" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="e005-66db-12f3-9905" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="4448-c632-3175-7427" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e653-01c6-bc67-4eae" type="min"/>
-            <constraint field="selections" scope="4448-c632-3175-7427" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c2fa-9767-fa1c-40f0" type="max"/>
+            <constraint field="selections" scope="4448-c632-3175-7427" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e653-01c6-bc67-4eae" type="min"/>
+            <constraint field="selections" scope="4448-c632-3175-7427" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c2fa-9767-fa1c-40f0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="53a8-3c87-57ba-1a7c" name="Breastplate" hidden="false" collective="false" import="true" targetId="f5b5-9240-2f48-9f45" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f07a-a65d-4a97-23b4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52bd-719d-b650-aece" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f07a-a65d-4a97-23b4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52bd-719d-b650-aece" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="66c7-1c13-fd0d-373d" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="4448-c632-3175-7427" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f326-ddce-75c8-830a" type="min"/>
-            <constraint field="selections" scope="4448-c632-3175-7427" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d341-40a1-bd86-3946" type="max"/>
+            <constraint field="selections" scope="4448-c632-3175-7427" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f326-ddce-75c8-830a" type="min"/>
+            <constraint field="selections" scope="4448-c632-3175-7427" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d341-40a1-bd86-3946" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0c84-bd79-6868-0221" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="501a-38a5-a629-9aeb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="501a-38a5-a629-9aeb" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="23.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="23"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b9e-5179-5759-226b" name="Highlander" publicationId="2908-69b7-1753-ac98" page="32" hidden="false" collective="false" import="true" type="unit">
@@ -946,76 +948,76 @@ Standard games use 100 point warbands.</comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="ae02-d406-de91-8d60" name="Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="442e-1626-1c8b-7076">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d96e-5560-c45e-4c02" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f6-a1d9-db3c-a539" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d96e-5560-c45e-4c02" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f6-a1d9-db3c-a539" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5e3f-29b8-5d28-9001" name="Melee" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="0ba9-833e-8ebb-b714" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="a75b-f129-bc66-3892" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="7420-bce7-0a06-4ff2" value="0.0">
+                    <modifier type="set" field="7420-bce7-0a06-4ff2" value="0">
                       <conditions>
-                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="442e-1626-1c8b-7076" type="equalTo"/>
+                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="442e-1626-1c8b-7076" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7420-bce7-0a06-4ff2" type="min"/>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e17-6ce8-36f2-5e5e" type="max"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7420-bce7-0a06-4ff2" type="min"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e17-6ce8-36f2-5e5e" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="cb34-c09d-1556-c168" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="5f45-322f-1a25-193d" value="0.0">
+                    <modifier type="set" field="5f45-322f-1a25-193d" value="0">
                       <conditions>
-                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="442e-1626-1c8b-7076" type="equalTo"/>
+                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="442e-1626-1c8b-7076" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f45-322f-1a25-193d" type="min"/>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43db-124b-fbdd-d7fe" type="max"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f45-322f-1a25-193d" type="min"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43db-124b-fbdd-d7fe" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="442e-1626-1c8b-7076" name="Ranged" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="c167-1f78-1417-5170" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="7651-e4dd-0806-9422" value="0.0">
+                    <modifier type="set" field="7651-e4dd-0806-9422" value="0">
                       <conditions>
-                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e3f-29b8-5d28-9001" type="equalTo"/>
+                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e3f-29b8-5d28-9001" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7651-e4dd-0806-9422" type="min"/>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bdb-d0cb-0ff3-44b0" type="max"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7651-e4dd-0806-9422" type="min"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bdb-d0cb-0ff3-44b0" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="1100-6bf8-561d-f7ab" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="54da-851e-f87a-4048" value="0.0">
+                    <modifier type="set" field="54da-851e-f87a-4048" value="0">
                       <conditions>
-                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e3f-29b8-5d28-9001" type="equalTo"/>
+                        <condition field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e3f-29b8-5d28-9001" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="54da-851e-f87a-4048" type="min"/>
-                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ee6-14f0-ac6d-5800" type="max"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="54da-851e-f87a-4048" type="min"/>
+                    <constraint field="selections" scope="0b9e-5179-5759-226b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ee6-14f0-ac6d-5800" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1024,13 +1026,13 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="1c84-3e4a-f286-87f7" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d4-222f-1ecb-7388" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d4-222f-1ecb-7388" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da06-c63c-6c01-daf9" name="Irregular" publicationId="2908-69b7-1753-ac98" page="33" hidden="false" collective="false" import="true" type="unit">
@@ -1048,82 +1050,82 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9018-d840-9573-f094" name="Master of Cover" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
-        <infoLink id="05e9-ac84-4a12-a2e2" name="Nimble" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
+        <infoLink id="9018-d840-9573-f094" name="Master of Cover (O)" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
+        <infoLink id="05e9-ac84-4a12-a2e2" name="Nimble (O)" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5a47-ad8f-a75c-ba61" name="Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c0d-92ee-ae63-156a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f56e-3d11-5d36-04ab" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc1d-a023-a925-fc43" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f56e-3d11-5d36-04ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc1d-a023-a925-fc43" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="4811-5ded-b38a-69ab" name="Melee" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="ba76-a410-0ec1-af7a" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="53b7-5734-7db5-4a44" value="0.0">
+                    <modifier type="set" field="53b7-5734-7db5-4a44" value="0">
                       <conditions>
-                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c0d-92ee-ae63-156a" type="equalTo"/>
+                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c0d-92ee-ae63-156a" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53b7-5734-7db5-4a44" type="min"/>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a7f-379e-21f6-9146" type="max"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53b7-5734-7db5-4a44" type="min"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a7f-379e-21f6-9146" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="22b1-1ee3-fcfc-3329" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="4c41-5bd3-e9fe-54de" value="0.0">
+                    <modifier type="set" field="4c41-5bd3-e9fe-54de" value="0">
                       <conditions>
-                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c0d-92ee-ae63-156a" type="equalTo"/>
+                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c0d-92ee-ae63-156a" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c41-5bd3-e9fe-54de" type="min"/>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="31d1-0034-2850-3249" type="max"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c41-5bd3-e9fe-54de" type="min"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="31d1-0034-2850-3249" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3c0d-92ee-ae63-156a" name="Ranged" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="3f9e-ef36-54f5-5942" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="9baa-3076-55a9-ade2" value="0.0">
+                    <modifier type="set" field="9baa-3076-55a9-ade2" value="0">
                       <conditions>
-                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4811-5ded-b38a-69ab" type="equalTo"/>
+                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4811-5ded-b38a-69ab" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9baa-3076-55a9-ade2" type="min"/>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d65-d11e-0960-ab73" type="max"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9baa-3076-55a9-ade2" type="min"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d65-d11e-0960-ab73" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="7d6e-aaac-8f00-ee75" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="c50d-454d-6336-f89b" value="0.0">
+                    <modifier type="set" field="c50d-454d-6336-f89b" value="0">
                       <conditions>
-                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4811-5ded-b38a-69ab" type="equalTo"/>
+                        <condition field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4811-5ded-b38a-69ab" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c50d-454d-6336-f89b" type="min"/>
-                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6a5-f790-a378-2b79" type="max"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c50d-454d-6336-f89b" type="min"/>
+                    <constraint field="selections" scope="da06-c63c-6c01-daf9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6a5-f790-a378-2b79" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1132,18 +1134,18 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="7e0a-1f02-c159-cc40" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a30-b9c5-bd01-fd93" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a30-b9c5-bd01-fd93" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c28-34b0-5150-8657" name="Junior Officer" publicationId="2908-69b7-1753-ac98" page="34" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8598-f543-447e-da23" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8598-f543-447e-da23" type="max"/>
       </constraints>
       <profiles>
         <profile id="c5d6-cdc9-6ab1-7fd1" name="Junior Officer" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
@@ -1161,33 +1163,33 @@ Standard games use 100 point warbands.</comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="2586-95cb-0684-516e" name="Melee" hidden="false" collective="false" import="true" defaultSelectionEntryId="16d6-e4f8-b126-f9d2">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7947-ff01-3b49-2493" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7947-ff01-3b49-2493" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="16d6-e4f8-b126-f9d2" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="9df7-54df-74a3-93a2" value="0.0">
+                <modifier type="set" field="9df7-54df-74a3-93a2" value="0">
                   <conditions>
-                    <condition field="selections" scope="8c28-34b0-5150-8657" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0a27-6374-a188-e0a4" type="equalTo"/>
+                    <condition field="selections" scope="8c28-34b0-5150-8657" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0a27-6374-a188-e0a4" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bdd8-0f7b-0920-0f80" type="max"/>
-                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9df7-54df-74a3-93a2" type="min"/>
+                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bdd8-0f7b-0920-0f80" type="max"/>
+                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9df7-54df-74a3-93a2" type="min"/>
               </constraints>
             </entryLink>
             <entryLink id="0a27-6374-a188-e0a4" name="Fencing Weapon" hidden="false" collective="false" import="true" targetId="ca5e-ad5c-1917-ceb2" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="10c6-3c0e-eae4-0bfd" value="0.0">
+                <modifier type="set" field="10c6-3c0e-eae4-0bfd" value="0">
                   <conditions>
-                    <condition field="selections" scope="8c28-34b0-5150-8657" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d6-e4f8-b126-f9d2" type="equalTo"/>
+                    <condition field="selections" scope="8c28-34b0-5150-8657" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16d6-e4f8-b126-f9d2" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2664-cc8c-161b-7517" type="max"/>
-                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10c6-3c0e-eae4-0bfd" type="min"/>
+                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2664-cc8c-161b-7517" type="max"/>
+                <constraint field="selections" scope="8c28-34b0-5150-8657" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10c6-3c0e-eae4-0bfd" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1196,31 +1198,31 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="09e6-b251-e019-129e" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="8c28-34b0-5150-8657" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95ba-d6ec-54f5-3215" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c3c-9c90-a80a-b0f8" type="max"/>
+            <constraint field="selections" scope="8c28-34b0-5150-8657" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95ba-d6ec-54f5-3215" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c3c-9c90-a80a-b0f8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="47bf-165d-c458-f50e" name="Officer Attributes" hidden="false" collective="false" import="true" targetId="dae3-ef09-e949-dda8" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8b8-1ed3-2424-7c88" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8b8-1ed3-2424-7c88" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="8bfd-51ac-8825-e0f1" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="5bfd-679e-46df-b3d0" value="2.0">
+            <modifier type="set" field="5bfd-679e-46df-b3d0" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bfd-679e-46df-b3d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bfd-679e-46df-b3d0" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1d9-1d71-8c37-55d3" name="Light Cavalryman" publicationId="2908-69b7-1753-ac98" page="34" hidden="false" collective="false" import="true" type="unit">
@@ -1238,30 +1240,30 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="38a8-3daa-11ac-48ee" name="Combat Rider" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
+        <infoLink id="38a8-3daa-11ac-48ee" name="Combat Rider (O)" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="62ed-2e9d-8320-84f8" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b2f-4c5a-9c76-a7ef" type="min"/>
-            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1245-410a-cd2a-7406" type="max"/>
+            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b2f-4c5a-9c76-a7ef" type="min"/>
+            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1245-410a-cd2a-7406" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f2ed-77a7-410e-59dd" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38c3-c38b-1cc7-4992" type="min"/>
-            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c74-1ca1-fdff-821c" type="max"/>
+            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38c3-c38b-1cc7-4992" type="min"/>
+            <constraint field="selections" scope="a1d9-1d71-8c37-55d3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c74-1ca1-fdff-821c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="d273-02fd-a2e3-2502" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf48-f001-d946-cc99" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf48-f001-d946-cc99" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab10-e59d-ca1e-5e48" name="Marine" publicationId="2908-69b7-1753-ac98" page="35" hidden="false" collective="false" import="true" type="unit">
@@ -1279,30 +1281,30 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4d87-de15-5711-bb10" name="Steady Legs" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
+        <infoLink id="4d87-de15-5711-bb10" name="Steady Legs (O)" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="92d8-a342-d9a3-7850" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25f0-b38f-f906-9609" type="min"/>
-            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fde4-a010-bb31-6279" type="max"/>
+            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25f0-b38f-f906-9609" type="min"/>
+            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fde4-a010-bb31-6279" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="e13e-2894-046e-fe93" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cc2-26f2-0248-c0c7" type="min"/>
-            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="891b-f946-ee15-cd46" type="max"/>
+            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cc2-26f2-0248-c0c7" type="min"/>
+            <constraint field="selections" scope="ab10-e59d-ca1e-5e48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="891b-f946-ee15-cd46" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="08ab-4bbf-6d7a-7d73" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126c-04cd-1e28-b365" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126c-04cd-1e28-b365" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a7f0-b273-9ea7-6838" name="Native Scout" publicationId="2908-69b7-1753-ac98" page="36" hidden="false" collective="false" import="true" type="unit">
@@ -1320,61 +1322,61 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f86e-0653-45c9-5c99" name="Master of Cover" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
+        <infoLink id="f86e-0653-45c9-5c99" name="Master of Cover (O)" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5286-c06f-f392-af1e" name="Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ba7-1ba8-2e84-bba8">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c4-2d95-7b7b-4642" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c4-2d95-7b7b-4642" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5ba7-1ba8-2e84-bba8" name="Ranged" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="8c2b-4d2c-979f-0568" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="922c-d4c3-611b-d328" value="0.0">
+                    <modifier type="set" field="922c-d4c3-611b-d328" value="0">
                       <conditions>
-                        <condition field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bae8-ead1-6177-eb1b" type="equalTo"/>
+                        <condition field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bae8-ead1-6177-eb1b" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="922c-d4c3-611b-d328" type="min"/>
-                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7728-4e6f-67e1-fdff" type="max"/>
+                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="922c-d4c3-611b-d328" type="min"/>
+                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7728-4e6f-67e1-fdff" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="fb8e-d6fc-1ec2-733c" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="fac0-3757-f8d3-e9c2" value="0.0">
+                    <modifier type="set" field="fac0-3757-f8d3-e9c2" value="0">
                       <conditions>
-                        <condition field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bae8-ead1-6177-eb1b" type="equalTo"/>
+                        <condition field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bae8-ead1-6177-eb1b" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fac0-3757-f8d3-e9c2" type="min"/>
-                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="465c-8a6f-6a67-2fc1" type="max"/>
+                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fac0-3757-f8d3-e9c2" type="min"/>
+                    <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="465c-8a6f-6a67-2fc1" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="bae8-ead1-6177-eb1b" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="a75b-f129-bc66-3892" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="77ef-e555-7d11-1dcc" value="0.0">
+                <modifier type="set" field="77ef-e555-7d11-1dcc" value="0">
                   <conditions>
-                    <condition field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ba7-1ba8-2e84-bba8" type="equalTo"/>
+                    <condition field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ba7-1ba8-2e84-bba8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="894a-6f0d-7ae0-ca49" type="max"/>
-                <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77ef-e555-7d11-1dcc" type="min"/>
+                <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="894a-6f0d-7ae0-ca49" type="max"/>
+                <constraint field="selections" scope="a7f0-b273-9ea7-6838" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77ef-e555-7d11-1dcc" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1383,13 +1385,13 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="e71c-c28d-425c-d52e" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a7a-4fbd-7b11-459f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a7a-4fbd-7b11-459f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9c5-cc0e-72dd-3532" name="Occultist" publicationId="2908-69b7-1753-ac98" page="36" hidden="false" collective="false" import="true" type="unit">
@@ -1408,24 +1410,24 @@ Standard games use 100 point warbands.</comment>
       </profiles>
       <infoLinks>
         <infoLink id="1fd2-a6ce-7caf-e743" name="Spells" hidden="false" targetId="2984-07be-02bc-5881" type="rule"/>
-        <infoLink id="0730-e323-9277-8b78" name="Supernatural Veteran" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
+        <infoLink id="0730-e323-9277-8b78" name="Supernatural Veteran (O)" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="4709-5551-772a-6b25" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="f9c5-cc0e-72dd-3532" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bf3-54cc-3691-51d3" type="min"/>
-            <constraint field="selections" scope="f9c5-cc0e-72dd-3532" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f266-e4c3-0414-7b11" type="max"/>
+            <constraint field="selections" scope="f9c5-cc0e-72dd-3532" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bf3-54cc-3691-51d3" type="min"/>
+            <constraint field="selections" scope="f9c5-cc0e-72dd-3532" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f266-e4c3-0414-7b11" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="626e-5246-cd84-aeed" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e00-6687-609e-da4a" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e00-6687-609e-da4a" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f70-03f1-633a-e935" name="Rifleman" publicationId="2908-69b7-1753-ac98" page="37" hidden="false" collective="false" import="true" type="unit">
@@ -1445,25 +1447,25 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="9637-c975-3f8a-f98d" name="Rifle" hidden="false" collective="false" import="true" targetId="fba7-930c-1c4b-0256" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65d5-e57d-fe3f-ece0" type="min"/>
-            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="775c-d490-5cdb-54ad" type="max"/>
+            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65d5-e57d-fe3f-ece0" type="min"/>
+            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="775c-d490-5cdb-54ad" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="30cb-9864-93ac-d914" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a0e-3306-9303-1bec" type="min"/>
-            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bc1-5d14-5a5d-9091" type="max"/>
+            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a0e-3306-9303-1bec" type="min"/>
+            <constraint field="selections" scope="4f70-03f1-633a-e935" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bc1-5d14-5a5d-9091" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6017-e710-ed3d-b15a" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7c-d89f-6573-4fc3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7c-d89f-6573-4fc3" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bbf-d409-8922-44b6" name="Sailor" publicationId="2908-69b7-1753-ac98" page="37" hidden="false" collective="false" import="true" type="unit">
@@ -1481,31 +1483,31 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="842f-f031-5e67-c98b" name="Steady Legs" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
-        <infoLink id="4464-f8c2-3bc9-50d4" name="Expert Climber" hidden="false" targetId="8863-a93c-471a-4c32" type="rule"/>
+        <infoLink id="842f-f031-5e67-c98b" name="Steady Legs (O)" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
+        <infoLink id="4464-f8c2-3bc9-50d4" name="Expert Climber (O)" hidden="false" targetId="8863-a93c-471a-4c32" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="e319-564f-d3df-3aca" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cb2-c0c6-194d-c699" type="min"/>
-            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba1d-9463-9ba0-8e6e" type="max"/>
+            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cb2-c0c6-194d-c699" type="min"/>
+            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba1d-9463-9ba0-8e6e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="8b53-cf26-44ad-7fca" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc18-3221-7106-d5ea" type="min"/>
-            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69e6-a4a3-4ab6-0759" type="max"/>
+            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc18-3221-7106-d5ea" type="min"/>
+            <constraint field="selections" scope="5bbf-d409-8922-44b6" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69e6-a4a3-4ab6-0759" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6568-05a0-f70a-e6b3" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f9c-c6b0-1f65-162e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f9c-c6b0-1f65-162e" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0d4-17a0-ac03-cd46" name="Sapper" publicationId="2908-69b7-1753-ac98" page="38" hidden="false" collective="false" import="true" type="unit">
@@ -1523,36 +1525,36 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e880-889e-d2ef-b3b0" name="Combat Engineer" hidden="false" targetId="6a58-cb57-1608-4a0b" type="rule"/>
+        <infoLink id="e880-889e-d2ef-b3b0" name="Combat Engineer (O)" hidden="false" targetId="6a58-cb57-1608-4a0b" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="22d3-c3e2-94fc-3482" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9e-b671-8773-e2f3" type="min"/>
-            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d832-4935-f388-bf41" type="max"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9e-b671-8773-e2f3" type="min"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d832-4935-f388-bf41" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0e7d-b0fc-f08b-3295" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b749-2eeb-3cbe-a8f6" type="min"/>
-            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee8-f80b-3c87-9b31" type="max"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b749-2eeb-3cbe-a8f6" type="min"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee8-f80b-3c87-9b31" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="d557-5f2a-aef0-2d6d" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="a75b-f129-bc66-3892" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f9-df6e-e997-f535" type="min"/>
-            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f151-9002-e435-d87c" type="max"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f9-df6e-e997-f535" type="min"/>
+            <constraint field="selections" scope="e0d4-17a0-ac03-cd46" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f151-9002-e435-d87c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="428b-eeca-2d4e-ca69" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244c-be51-5f94-051d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244c-be51-5f94-051d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d43c-8ab4-b416-eb51" name="Supernatural Investigator" publicationId="2908-69b7-1753-ac98" page="39" hidden="false" collective="false" import="true" type="unit">
@@ -1571,80 +1573,80 @@ Standard games use 100 point warbands.</comment>
       </profiles>
       <infoLinks>
         <infoLink id="99fb-d87d-c3bf-b2da" name="Monster Expert" hidden="false" targetId="51bf-ad2a-11e1-7e14" type="rule"/>
-        <infoLink id="8000-99ed-8d98-bb60" name="Supernatural Veteran" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
+        <infoLink id="8000-99ed-8d98-bb60" name="Supernatural Veteran (O)" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2ffa-f596-8cba-3569" name="Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="eedc-6b3d-b6a7-0617">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ad-be40-062f-7f09" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ad-be40-062f-7f09" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2675-e901-604c-90ab" name="Fencing Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="03b9-ba07-dbf5-9790" name="Fencing Weapon" hidden="false" collective="false" import="true" targetId="ca5e-ad5c-1917-ceb2" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="3acb-bf32-02b3-7f9e" value="0.0">
+                    <modifier type="set" field="3acb-bf32-02b3-7f9e" value="0">
                       <conditions>
-                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedc-6b3d-b6a7-0617" type="equalTo"/>
+                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedc-6b3d-b6a7-0617" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3acb-bf32-02b3-7f9e" type="min"/>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2935-c526-176f-de39" type="max"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3acb-bf32-02b3-7f9e" type="min"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2935-c526-176f-de39" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="1a14-1767-4fa2-4dc7" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="248c-cb18-a17d-6c77" value="0.0">
+                    <modifier type="set" field="248c-cb18-a17d-6c77" value="0">
                       <conditions>
-                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedc-6b3d-b6a7-0617" type="equalTo"/>
+                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedc-6b3d-b6a7-0617" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="248c-cb18-a17d-6c77" type="min"/>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c27-12db-a143-4729" type="max"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="248c-cb18-a17d-6c77" type="min"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c27-12db-a143-4729" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eedc-6b3d-b6a7-0617" name="Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="8c00-e55b-a042-157b" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="a75b-f129-bc66-3892" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="dbd0-27b9-60ad-81e6" value="0.0">
+                    <modifier type="set" field="dbd0-27b9-60ad-81e6" value="0">
                       <conditions>
-                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2675-e901-604c-90ab" type="equalTo"/>
+                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2675-e901-604c-90ab" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dbd0-27b9-60ad-81e6" type="min"/>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3e5-45ba-3b7b-59ef" type="max"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dbd0-27b9-60ad-81e6" type="min"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3e5-45ba-3b7b-59ef" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="811f-0ae8-d9a6-260d" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="4656-2abb-5a35-b7c8" value="0.0">
+                    <modifier type="set" field="4656-2abb-5a35-b7c8" value="0">
                       <conditions>
-                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2675-e901-604c-90ab" type="equalTo"/>
+                        <condition field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2675-e901-604c-90ab" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4656-2abb-5a35-b7c8" type="min"/>
-                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87d2-35d4-65f5-034e" type="max"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4656-2abb-5a35-b7c8" type="min"/>
+                    <constraint field="selections" scope="d43c-8ab4-b416-eb51" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87d2-35d4-65f5-034e" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+                <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+                <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1653,13 +1655,13 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="9585-101a-1919-cd24" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf6-5b77-22d2-b8d3" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf6-5b77-22d2-b8d3" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a695-aaea-c7ad-fa71" name="Swordsman" publicationId="2908-69b7-1753-ac98" page="39" hidden="false" collective="false" import="true" type="unit">
@@ -1677,30 +1679,30 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="64a2-1c53-2024-c2f7" name="Indefatigable" hidden="false" targetId="dca2-2f1b-7cfe-ff4c" type="rule"/>
+        <infoLink id="64a2-1c53-2024-c2f7" name="Indefatigable (O)" hidden="false" targetId="dca2-2f1b-7cfe-ff4c" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="4cef-92bb-43fb-91bf" name="Fencing Weapon" hidden="false" collective="false" import="true" targetId="ca5e-ad5c-1917-ceb2" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55c6-13d3-813b-7dc4" type="min"/>
-            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0208-3ec4-9f2e-a9b8" type="max"/>
+            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55c6-13d3-813b-7dc4" type="min"/>
+            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0208-3ec4-9f2e-a9b8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="d5d8-0eb9-d7d6-4fef" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed9a-3700-5500-22dc" type="min"/>
-            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5037-2ec4-9ac8-8608" type="max"/>
+            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed9a-3700-5500-22dc" type="min"/>
+            <constraint field="selections" scope="a695-aaea-c7ad-fa71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5037-2ec4-9ac8-8608" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="40e0-ddeb-1e38-bb1e" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6427-c356-851b-7f12" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6427-c356-851b-7f12" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16b6-79a8-e5f7-a126" name="Tactician" publicationId="2908-69b7-1753-ac98" page="40" hidden="false" collective="false" import="true" type="unit">
@@ -1718,38 +1720,38 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="123c-3cd2-b2b7-b0ad" name="Tactician" hidden="false" targetId="937d-cc11-9714-a311" type="rule"/>
+        <infoLink id="123c-3cd2-b2b7-b0ad" name="Tactician (O)" hidden="false" targetId="937d-cc11-9714-a311" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a08f-16de-04bb-4b26" name="Melee" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f065-3edd-e512-2a9c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f065-3edd-e512-2a9c" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="3069-6649-3a5a-3aa9" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="2bfb-76d6-c8c3-d682" value="0.0">
+                <modifier type="set" field="2bfb-76d6-c8c3-d682" value="0">
                   <conditions>
-                    <condition field="selections" scope="16b6-79a8-e5f7-a126" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67cc-d133-36f8-a5c8" type="equalTo"/>
+                    <condition field="selections" scope="16b6-79a8-e5f7-a126" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67cc-d133-36f8-a5c8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2bfb-76d6-c8c3-d682" type="min"/>
-                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f6f-6a63-3031-529a" type="max"/>
+                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2bfb-76d6-c8c3-d682" type="min"/>
+                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f6f-6a63-3031-529a" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="67cc-d133-36f8-a5c8" name="Fencing Weapon" hidden="false" collective="false" import="true" targetId="ca5e-ad5c-1917-ceb2" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="9d90-a484-b92d-6a7d" value="0.0">
+                <modifier type="set" field="9d90-a484-b92d-6a7d" value="0">
                   <conditions>
-                    <condition field="selections" scope="16b6-79a8-e5f7-a126" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3069-6649-3a5a-3aa9" type="equalTo"/>
+                    <condition field="selections" scope="16b6-79a8-e5f7-a126" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3069-6649-3a5a-3aa9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7bb-2668-af1b-415e" type="max"/>
-                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d90-a484-b92d-6a7d" type="min"/>
+                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7bb-2668-af1b-415e" type="max"/>
+                <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d90-a484-b92d-6a7d" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1758,31 +1760,31 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="e50f-f969-0fbb-9dc0" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b73-b80c-ea47-01ac" type="min"/>
-            <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b0-12ee-1fbc-6c51" type="max"/>
+            <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b73-b80c-ea47-01ac" type="min"/>
+            <constraint field="selections" scope="16b6-79a8-e5f7-a126" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b0-12ee-1fbc-6c51" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0ac7-73ed-7afc-4ae1" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc0f-10a6-5631-19cb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc0f-10a6-5631-19cb" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71a6-dc78-ab82-36de" name="Veteran Hunter" publicationId="2908-69b7-1753-ac98" page="40" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="909b-8160-80ce-999b" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="909b-8160-80ce-999b" type="max"/>
       </constraints>
       <profiles>
         <profile id="1ee1-16bb-ffcf-cf8c" name="Veteran Hunter" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
           <modifiers>
             <modifier type="decrement" field="7e6b-dae4-5a96-a8fd" value="1">
               <conditions>
-                <condition field="selections" scope="71a6-dc78-ab82-36de" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
+                <condition field="selections" scope="71a6-dc78-ab82-36de" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5b5-9240-2f48-9f45" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1800,20 +1802,20 @@ Standard games use 100 point warbands.</comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="e700-e087-b83b-7593" name="Equipment" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="8c7b-4b10-e857-234a" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c57-7702-be59-97e5" type="max"/>
+            <constraint field="8c7b-4b10-e857-234a" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c57-7702-be59-97e5" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="3fb0-30d2-06c5-7155" name="General Armoury" hidden="false" collective="false" import="true" targetId="9a61-9ac8-9932-2ffd" type="selectionEntryGroup"/>
             <entryLink id="a5a6-9eed-c867-73bb" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
               <modifiers>
-                <modifier type="set" field="6985-0fad-20cb-cb2e" value="3.0">
+                <modifier type="set" field="6985-0fad-20cb-cb2e" value="3">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6985-0fad-20cb-cb2e" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6985-0fad-20cb-cb2e" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1822,13 +1824,13 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="6a1a-1dcd-8a32-1ee3" name="Officer Attributes" hidden="false" collective="false" import="true" targetId="dae3-ef09-e949-dda8" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bc5-e240-79e0-ecff" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bc5-e240-79e0-ecff" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7179-86a4-a2b8-f3fa" name="Vivandiere" publicationId="2908-69b7-1753-ac98" page="32" hidden="false" collective="false" import="true" type="unit">
@@ -1846,31 +1848,31 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6653-1c51-d785-3831" name="Inspiring" hidden="false" targetId="4e79-05df-2d0d-7e0d" type="rule"/>
-        <infoLink id="54cd-c5ab-b16b-fd14" name="Supernatural Veteran" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
-        <infoLink id="cc58-8702-18a0-273d" name="Master of Cover" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
+        <infoLink id="6653-1c51-d785-3831" name="Inspiring (O)" hidden="false" targetId="4e79-05df-2d0d-7e0d" type="rule"/>
+        <infoLink id="54cd-c5ab-b16b-fd14" name="Supernatural Veteran (O)" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
+        <infoLink id="cc58-8702-18a0-273d" name="Master of Cover (O)" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="5c5d-068c-2d99-3c50" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="7179-86a4-a2b8-f3fa" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8303-48da-88b0-9fd5" type="min"/>
-            <constraint field="selections" scope="7179-86a4-a2b8-f3fa" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7ea-2629-eea8-5902" type="max"/>
+            <constraint field="selections" scope="7179-86a4-a2b8-f3fa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8303-48da-88b0-9fd5" type="min"/>
+            <constraint field="selections" scope="7179-86a4-a2b8-f3fa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7ea-2629-eea8-5902" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f558-d468-3a6b-5e81" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b58-6b25-33d7-34a8" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b58-6b25-33d7-34a8" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="10"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a9d-555c-bab7-b500" name="Werebear" publicationId="2908-69b7-1753-ac98" page="40" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc9b-8a9a-cf0c-96f3" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc9b-8a9a-cf0c-96f3" type="max"/>
       </constraints>
       <profiles>
         <profile id="bf0c-4cc1-4fb2-b0d9" name="Werebear" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
@@ -1900,24 +1902,24 @@ Standard games use 100 point warbands.</comment>
         <infoLink id="c573-7486-0fca-3f60" name="Skinshift" hidden="false" targetId="8966-fd40-af22-c98e" type="rule"/>
         <infoLink id="9bea-b0a7-6e6e-285b" name="Rage" hidden="false" targetId="79d2-ff21-6f77-fa53" type="rule"/>
         <infoLink id="7eb8-024e-4f15-af98" name="Very Strong" hidden="false" targetId="e75c-1af3-a9ec-4ab5" type="rule"/>
-        <infoLink id="aa21-e841-5989-7cfc" name="Damage Reduction" hidden="false" targetId="f5a4-f959-65fc-791b" type="rule"/>
+        <infoLink id="aa21-e841-5989-7cfc" name="Damage Reduction (X)" hidden="false" targetId="f5a4-f959-65fc-791b" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="916a-3db6-6902-919d" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="a75b-f129-bc66-3892" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="4a9d-555c-bab7-b500" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="946e-0f1c-0491-1b45" type="min"/>
-            <constraint field="selections" scope="4a9d-555c-bab7-b500" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a2d-f741-56eb-5fe0" type="max"/>
+            <constraint field="selections" scope="4a9d-555c-bab7-b500" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="946e-0f1c-0491-1b45" type="min"/>
+            <constraint field="selections" scope="4a9d-555c-bab7-b500" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a2d-f741-56eb-5fe0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="82e8-a7e3-3d35-12b4" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3479-9d87-a7f1-89e3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3479-9d87-a7f1-89e3" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7685-6906-1006-f7c1" name="Coachman" publicationId="d70c-5fd1-01fb-ce8b" page="7" hidden="false" collective="false" import="true" type="unit">
@@ -1935,36 +1937,36 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5ca9-dee5-7e64-c3ff" name="Hard to Put Down" hidden="false" targetId="795d-f11e-ef76-3f90" type="rule"/>
+        <infoLink id="5ca9-dee5-7e64-c3ff" name="Hard to Put Down (O)" hidden="false" targetId="795d-f11e-ef76-3f90" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="9545-6b85-b5c7-226b" name="Blunderbuss" hidden="false" collective="false" import="true" targetId="9dd4-4b29-d260-2256" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80c7-cb41-d6ed-d82a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b248-c238-47f9-878e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80c7-cb41-d6ed-d82a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b248-c238-47f9-878e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="fdca-f196-4706-5a18" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d40e-f58b-7024-4968" type="min"/>
-            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06e8-59c4-7e76-c38a" type="max"/>
+            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d40e-f58b-7024-4968" type="min"/>
+            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06e8-59c4-7e76-c38a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6ee2-0fed-8207-1e6f" name="Shotbag" hidden="false" collective="false" import="true" targetId="50f0-cb60-e75d-9618" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6542-8f35-925d-2854" type="min"/>
-            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa46-21c6-deaa-0cc3" type="max"/>
+            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6542-8f35-925d-2854" type="min"/>
+            <constraint field="selections" scope="7685-6906-1006-f7c1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa46-21c6-deaa-0cc3" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f745-ca26-a56c-9c53" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac9-0b44-3f9a-0ae1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac9-0b44-3f9a-0ae1" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b0f-49c8-cec0-1e7b" name="Highwayman" publicationId="d70c-5fd1-01fb-ce8b" page="8" hidden="false" collective="false" import="true" type="unit">
@@ -1982,24 +1984,24 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7922-979a-42ff-bfc3" name="Combat Rider" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
+        <infoLink id="7922-979a-42ff-bfc3" name="Combat Rider (O)" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="3a42-5025-e1b7-8f55" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2b0f-49c8-cec0-1e7b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50b3-933c-54ab-ea74" type="min"/>
-            <constraint field="selections" scope="2b0f-49c8-cec0-1e7b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ea6-94d1-e217-20f7" type="max"/>
+            <constraint field="selections" scope="2b0f-49c8-cec0-1e7b" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50b3-933c-54ab-ea74" type="min"/>
+            <constraint field="selections" scope="2b0f-49c8-cec0-1e7b" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ea6-94d1-e217-20f7" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="240c-3edb-db39-c794" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a4-07c9-5eab-58ca" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a4-07c9-5eab-58ca" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2aaf-a6a2-8365-f88b" name="Woodsman" publicationId="d70c-5fd1-01fb-ce8b" page="9" hidden="false" collective="false" import="true" type="unit">
@@ -2018,30 +2020,30 @@ Standard games use 100 point warbands.</comment>
       </profiles>
       <infoLinks>
         <infoLink id="ba49-a691-8ed8-16ed" name="Fire Starter (O)" hidden="false" targetId="362a-f1fa-d7d0-9a60" type="rule"/>
-        <infoLink id="9e7e-68c5-5b94-bf82" name="Nimble" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
+        <infoLink id="9e7e-68c5-5b94-bf82" name="Nimble (O)" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="f211-fe38-4fe5-0c1a" name="Rifle" hidden="false" collective="false" import="true" targetId="fba7-930c-1c4b-0256" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1ce-b95b-b6da-bbfd" type="min"/>
-            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3766-3160-82f8-2941" type="max"/>
+            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1ce-b95b-b6da-bbfd" type="min"/>
+            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3766-3160-82f8-2941" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c999-5bb7-e512-48c4" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42e5-a66c-34ae-74ff" type="min"/>
-            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c54f-7d6e-08c6-ddbb" type="max"/>
+            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42e5-a66c-34ae-74ff" type="min"/>
+            <constraint field="selections" scope="2aaf-a6a2-8365-f88b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c54f-7d6e-08c6-ddbb" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="663d-f7e4-b424-b57d" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa91-a4c3-18a2-ad71" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa91-a4c3-18a2-ad71" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="896e-7b40-4801-2f05" name="Discovery Serviceman" publicationId="d0dd-0e41-d528-8241" page="12" hidden="false" collective="false" import="true" type="unit">
@@ -2059,48 +2061,48 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f177-9d42-6350-67c1" name="Expert Climber" hidden="false" targetId="8863-a93c-471a-4c32" type="rule"/>
-        <infoLink id="06a6-6f38-7741-cc87" name="Steady Legs" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
+        <infoLink id="f177-9d42-6350-67c1" name="Expert Climber (O)" hidden="false" targetId="8863-a93c-471a-4c32" type="rule"/>
+        <infoLink id="06a6-6f38-7741-cc87" name="Steady Legs (O)" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="b9ba-2cb0-caaa-ff95" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="decc-c2fb-e89e-a254" type="min"/>
-            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="deab-85cf-e1d9-a3c8" type="max"/>
+            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="decc-c2fb-e89e-a254" type="min"/>
+            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="deab-85cf-e1d9-a3c8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="b985-a1e0-5ca1-e890" name="Blunderbuss" hidden="false" collective="false" import="true" targetId="9dd4-4b29-d260-2256" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0197-21ed-6734-f51e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9676-f61a-620b-78b1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0197-21ed-6734-f51e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9676-f61a-620b-78b1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="968a-2874-b234-683c" name="Shotbag" hidden="false" collective="false" import="true" targetId="50f0-cb60-e75d-9618" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4152-9643-f902-e315" type="min"/>
-            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb4c-1627-b23f-2796" type="max"/>
+            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4152-9643-f902-e315" type="min"/>
+            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb4c-1627-b23f-2796" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="16a1-8422-dfbe-1734" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aab1-0fbb-7c39-9a2d" type="min"/>
-            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de7a-70e8-eec2-68a3" type="max"/>
+            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aab1-0fbb-7c39-9a2d" type="min"/>
+            <constraint field="selections" scope="896e-7b40-4801-2f05" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de7a-70e8-eec2-68a3" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="4973-1d63-4d5a-5241" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf6a-ea0c-1b50-e0a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf6a-ea0c-1b50-e0a0" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e3a-c786-528c-2b34" name="Loup Garou" publicationId="d0dd-0e41-d528-8241" page="14" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b546-0b73-4dfe-c884" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b546-0b73-4dfe-c884" type="max"/>
       </constraints>
       <profiles>
         <profile id="08d2-d7f2-1cee-090d" name="Loup Garou" hidden="false" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual">
@@ -2128,35 +2130,35 @@ Standard games use 100 point warbands.</comment>
       </profiles>
       <infoLinks>
         <infoLink id="24b1-342b-33b6-a355" name="Skinshift" hidden="false" targetId="8966-fd40-af22-c98e" type="rule"/>
-        <infoLink id="eae4-0529-a4d0-af3c" name="Allergy" hidden="false" targetId="6e08-1705-7873-817a" type="rule"/>
-        <infoLink id="f7e4-be2b-bdf2-365e" name="Quick Heal" hidden="false" targetId="dee2-d03d-4e73-c02d" type="rule"/>
-        <infoLink id="f791-0d58-b0f2-8df2" name="Strong" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
-        <infoLink id="9544-bdc7-2011-a19a" name="Damage Reduction" hidden="false" targetId="f5a4-f959-65fc-791b" type="rule"/>
-        <infoLink id="5d17-2ae6-f371-063d" name="Nimble" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
+        <infoLink id="eae4-0529-a4d0-af3c" name="Allergy to X" hidden="false" targetId="6e08-1705-7873-817a" type="rule"/>
+        <infoLink id="f7e4-be2b-bdf2-365e" name="Quick Healing" hidden="false" targetId="dee2-d03d-4e73-c02d" type="rule"/>
+        <infoLink id="f791-0d58-b0f2-8df2" name="Strong (O)" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
+        <infoLink id="9544-bdc7-2011-a19a" name="Damage Reduction (X)" hidden="false" targetId="f5a4-f959-65fc-791b" type="rule"/>
+        <infoLink id="5d17-2ae6-f371-063d" name="Nimble (O)" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
         <infoLink id="3ec3-3530-93f6-fecf" name="Quick" hidden="false" targetId="dba9-93a4-6ba9-86d2" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="c985-cc06-b5e3-ae4c" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0e5-37ae-7dff-233c" type="min"/>
-            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75c0-6cc6-34ec-b404" type="max"/>
+            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0e5-37ae-7dff-233c" type="min"/>
+            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75c0-6cc6-34ec-b404" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="68c5-2fa9-0ffe-1f37" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f34-fdcb-306f-b599" type="min"/>
-            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e7e-fbdf-4a7d-5781" type="max"/>
+            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f34-fdcb-306f-b599" type="min"/>
+            <constraint field="selections" scope="3e3a-c786-528c-2b34" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e7e-fbdf-4a7d-5781" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="888c-c63b-b057-93cf" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92dc-6565-e839-48ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92dc-6565-e839-48ef" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a89-268a-b0f9-c25c" name="Voyageur" publicationId="d0dd-0e41-d528-8241" page="14" hidden="false" collective="false" import="true" type="unit">
@@ -2174,37 +2176,37 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b26b-5c41-b973-594d" name="Strong" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
-        <infoLink id="466b-66cd-ad48-1af6" name="Steady Legs" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
+        <infoLink id="b26b-5c41-b973-594d" name="Strong (O)" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
+        <infoLink id="466b-66cd-ad48-1af6" name="Steady Legs (O)" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="5549-9b52-45b9-92bf" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fef-8a88-b789-5b2d" type="min"/>
-            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7aca-bf90-a0e7-ee89" type="max"/>
+            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fef-8a88-b789-5b2d" type="min"/>
+            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7aca-bf90-a0e7-ee89" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7953-c6df-9861-ad26" name="Rifle" hidden="false" collective="false" import="true" targetId="fba7-930c-1c4b-0256" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d8ca-4fc3-7995-71b6" type="min"/>
-            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fca-e2ce-1864-1f17" type="max"/>
+            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d8ca-4fc3-7995-71b6" type="min"/>
+            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fca-e2ce-1864-1f17" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0d8f-c735-317b-ffb6" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b43a-a6be-423f-49b7" type="min"/>
-            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25c3-4a10-09b3-cbcf" type="max"/>
+            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b43a-a6be-423f-49b7" type="min"/>
+            <constraint field="selections" scope="2a89-268a-b0f9-c25c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25c3-4a10-09b3-cbcf" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="90a1-dc79-4b36-cde1" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ce-47d2-f94a-df28" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ce-47d2-f94a-df28" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8733-e806-b194-b6fc" name="Bedouin Raider" publicationId="91f1-e705-cedf-43aa" page="8" hidden="false" collective="false" import="true" type="unit">
@@ -2222,37 +2224,37 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8193-409d-0515-7d31" name="Combat Rider" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
+        <infoLink id="8193-409d-0515-7d31" name="Combat Rider (O)" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
         <infoLink id="9ef5-6360-8bbc-f3c2" name="Experience in the Desert" hidden="false" targetId="ef18-1ee2-5f55-b8e8" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="f631-826e-89d2-623e" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6a2-71d0-7a32-17d7" type="min"/>
-            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91dc-4a95-9a6c-c3d9" type="max"/>
+            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6a2-71d0-7a32-17d7" type="min"/>
+            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91dc-4a95-9a6c-c3d9" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f5b2-75bc-6ebe-505f" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e112-43ad-aab0-5993" type="min"/>
-            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f48e-3290-2d5d-d194" type="max"/>
+            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e112-43ad-aab0-5993" type="min"/>
+            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f48e-3290-2d5d-d194" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f9c9-5641-17b0-937b" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e30c-f1ab-6970-eaf1" type="min"/>
-            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4200-7ac3-5e5b-606a" type="max"/>
+            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e30c-f1ab-6970-eaf1" type="min"/>
+            <constraint field="selections" scope="8733-e806-b194-b6fc" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4200-7ac3-5e5b-606a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="42b3-bd1a-4108-41d2" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7869-a465-81fb-6a5e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7869-a465-81fb-6a5e" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20a1-d9de-8db6-670f" name="Egyptian Conscript" publicationId="91f1-e705-cedf-43aa" page="9" hidden="false" collective="false" import="true" type="unit">
@@ -2272,19 +2274,19 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="c4f9-7b0e-6436-5b3e" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="20a1-d9de-8db6-670f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7de8-4123-f609-4202" type="min"/>
-            <constraint field="selections" scope="20a1-d9de-8db6-670f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b41-bed6-60be-dff2" type="max"/>
+            <constraint field="selections" scope="20a1-d9de-8db6-670f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7de8-4123-f609-4202" type="min"/>
+            <constraint field="selections" scope="20a1-d9de-8db6-670f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b41-bed6-60be-dff2" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="784e-bde8-58ff-3620" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265e-06c0-fb34-f118" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265e-06c0-fb34-f118" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="4.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="4"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3119-64e9-2664-4a75" name="Follower of the Old Gods" publicationId="91f1-e705-cedf-43aa" page="9" hidden="false" collective="false" import="true" type="unit">
@@ -2308,19 +2310,19 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="58f0-9855-e5eb-d791" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="3119-64e9-2664-4a75" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d73c-9f3b-d143-a329" type="min"/>
-            <constraint field="selections" scope="3119-64e9-2664-4a75" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7e5-84cc-cfad-8258" type="max"/>
+            <constraint field="selections" scope="3119-64e9-2664-4a75" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d73c-9f3b-d143-a329" type="min"/>
+            <constraint field="selections" scope="3119-64e9-2664-4a75" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7e5-84cc-cfad-8258" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="1bbc-fddc-f864-09c3" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f131-138a-2e5b-2276" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f131-138a-2e5b-2276" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="20"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c894-7a77-270f-ee4f" name="Janissary" publicationId="91f1-e705-cedf-43aa" page="11" hidden="false" collective="false" import="true" type="unit">
@@ -2340,31 +2342,31 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="f0ae-2fc0-1684-a413" name="Fencing Weapon" hidden="false" collective="false" import="true" targetId="ca5e-ad5c-1917-ceb2" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b594-d580-fe0a-ee01" type="min"/>
-            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b07-a9c0-05a8-cc06" type="max"/>
+            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b594-d580-fe0a-ee01" type="min"/>
+            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b07-a9c0-05a8-cc06" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="aab7-66b4-2b91-4705" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f80-deb4-e553-681b" type="min"/>
-            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff18-76be-944f-0e77" type="max"/>
+            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f80-deb4-e553-681b" type="min"/>
+            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff18-76be-944f-0e77" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cbc4-af9b-de5a-601f" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd3e-779f-6f1e-5d02" type="min"/>
-            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="975b-519d-b373-441e" type="max"/>
+            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd3e-779f-6f1e-5d02" type="min"/>
+            <constraint field="selections" scope="c894-7a77-270f-ee4f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="975b-519d-b373-441e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f4b5-754e-2d99-dd94" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a1-0a8b-e32d-8d17" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a1-0a8b-e32d-8d17" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="12"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ae4-1fa9-74a4-7b31" name="Knight Hospitaller" publicationId="91f1-e705-cedf-43aa" page="12" hidden="false" collective="false" import="true" type="unit">
@@ -2382,30 +2384,30 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="873c-d0eb-0da8-04b6" name="Medic" hidden="false" targetId="6c7c-8168-0484-3e73" type="rule"/>
+        <infoLink id="873c-d0eb-0da8-04b6" name="Medic (O)" hidden="false" targetId="6c7c-8168-0484-3e73" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="3aa7-a0da-f010-01ab" name="Holy Symbol" hidden="false" collective="false" import="true" targetId="8f20-2a12-309a-6ccf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bc9-75be-e3a0-1178" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="000e-582d-7c67-c754" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bc9-75be-e3a0-1178" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="000e-582d-7c67-c754" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c2ca-a222-49de-4ea0" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="2ae4-1fa9-74a4-7b31" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed2e-c6c7-6d42-d3fe" type="min"/>
-            <constraint field="selections" scope="2ae4-1fa9-74a4-7b31" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a84-27dd-8fb5-3c39" type="max"/>
+            <constraint field="selections" scope="2ae4-1fa9-74a4-7b31" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed2e-c6c7-6d42-d3fe" type="min"/>
+            <constraint field="selections" scope="2ae4-1fa9-74a4-7b31" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a84-27dd-8fb5-3c39" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0e78-71c1-d1ba-e58a" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f7-e9c9-e9e8-4f9d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f7-e9c9-e9e8-4f9d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="15"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e5e-dc5f-ebdd-d7f8" name="Mameluke" publicationId="91f1-e705-cedf-43aa" page="13" hidden="false" collective="false" import="true" type="unit">
@@ -2423,38 +2425,38 @@ Standard games use 100 point warbands.</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="64aa-51c2-66f1-24d0" name="Combat Rider" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
+        <infoLink id="64aa-51c2-66f1-24d0" name="Combat Rider (O)" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f089-1808-c769-7ab1" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc5c-be19-91ed-4170">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65f7-3518-0825-a0be" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65f7-3518-0825-a0be" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="fc5c-be19-91ed-4170" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="6d9c-1ee1-154f-841f" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="ebb7-6eff-40a7-84a4" value="0.0">
+                <modifier type="set" field="ebb7-6eff-40a7-84a4" value="0">
                   <conditions>
-                    <condition field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9387-19c0-74c6-3787" type="equalTo"/>
+                    <condition field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9387-19c0-74c6-3787" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c86f-5fe0-edfa-1e9a" type="max"/>
-                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebb7-6eff-40a7-84a4" type="min"/>
+                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c86f-5fe0-edfa-1e9a" type="max"/>
+                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebb7-6eff-40a7-84a4" type="min"/>
               </constraints>
             </entryLink>
             <entryLink id="9387-19c0-74c6-3787" name="Fencing Weapon" hidden="false" collective="false" import="true" targetId="ca5e-ad5c-1917-ceb2" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="2501-9c35-2f3b-bade" value="0.0">
+                <modifier type="set" field="2501-9c35-2f3b-bade" value="0">
                   <conditions>
-                    <condition field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc5c-be19-91ed-4170" type="equalTo"/>
+                    <condition field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc5c-be19-91ed-4170" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e69-1c68-3c57-7408" type="max"/>
-                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2501-9c35-2f3b-bade" type="min"/>
+                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e69-1c68-3c57-7408" type="max"/>
+                <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2501-9c35-2f3b-bade" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2463,44 +2465,350 @@ Standard games use 100 point warbands.</comment>
       <entryLinks>
         <entryLink id="f5d5-a3d5-7639-224f" name="Cartridge Box" hidden="false" collective="false" import="true" targetId="aa26-fafd-f3c5-b83c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a34d-deca-0954-1bf1" type="min"/>
-            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bdd2-de3c-9efc-ff20" type="max"/>
+            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a34d-deca-0954-1bf1" type="min"/>
+            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bdd2-de3c-9efc-ff20" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="dbb6-2d8f-6bf8-59e7" name="Musket" hidden="false" collective="false" import="true" targetId="5afb-9622-e9d9-295e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="57bc-9815-08dd-302d" type="min"/>
-            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2cf-7459-41bc-5c7e" type="max"/>
+            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="57bc-9815-08dd-302d" type="min"/>
+            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2cf-7459-41bc-5c7e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cbf2-8547-aa10-c215" name="Pistol" hidden="false" collective="false" import="true" targetId="302b-2f3a-1abc-e0a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6340-0dbd-1d01-a962" type="min"/>
-            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b2-ef74-3358-753d" type="max"/>
+            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6340-0dbd-1d01-a962" type="min"/>
+            <constraint field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b2-ef74-3358-753d" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="72d1-57d7-14fd-71b0" name="Officer Attributes" hidden="false" collective="false" import="true" targetId="dae3-ef09-e949-dda8" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a42-784c-d828-6bab" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a42-784c-d828-6bab" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c42f-1f5c-b35a-33d7" name="Special Armoury" hidden="false" collective="false" import="true" targetId="9364-0275-bc64-8709" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="d2a5-1a10-8320-372c" value="2.0">
+            <modifier type="set" field="d2a5-1a10-8320-372c" value="2">
               <conditions>
-                <condition field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
+                <condition field="selections" scope="9e5e-dc5f-ebdd-d7f8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2998-ef33-cd91-95e1" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a5-1a10-8320-372c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a5-1a10-8320-372c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30.0"/>
-        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Agent Provocateur" hidden="false" id="56e8-63bd-e221-4431" publicationId="8413-013f-4c33-66cd" page="29-30">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="22"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Special Armoury" hidden="false" id="2f86-b56c-e2f8-878a" type="selectionEntryGroup" targetId="9364-0275-bc64-8709"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Agent Provocateur" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="7645-9ac3-1cf2-e663" publicationId="8413-013f-4c33-66cd" page="30">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+1</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+1</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">+1</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">Master of Cover, Sneak, Supernatural Veteran</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Master of Cover (O)" id="c347-9773-f8b2-38f2" hidden="false" type="rule" targetId="45ab-394a-fa81-ad04"/>
+        <infoLink name="Supernatural Veteran (O)" id="2333-c101-5f19-710f" hidden="false" type="rule" targetId="e216-e077-8a92-c279"/>
+        <infoLink name="Sneak (O)" id="d8cf-75b5-ad96-b85c" hidden="false" type="rule" targetId="9f6d-ccd5-fe5f-99c6"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipment" id="22c9-ba70-3ebc-eeb8" hidden="false" publicationId="8413-013f-4c33-66cd" page="30" defaultSelectionEntryId="2fed-e4bd-beb2-ba57">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melee Plus" hidden="false" id="2fed-e4bd-beb2-ba57">
+              <entryLinks>
+                <entryLink import="true" name="Fencing Weapon" hidden="false" id="d356-63b6-1f5c-8b16" type="selectionEntry" targetId="ca5e-ad5c-1917-ceb2"/>
+                <entryLink import="true" name="Pistol" hidden="false" id="0aea-54c7-e78e-d072" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
+                <entryLink import="true" name="Pistol" hidden="false" id="7f04-d3c6-6df8-8aad" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee Only" hidden="false" id="0d76-32b4-0fdc-17fc">
+              <entryLinks>
+                <entryLink import="true" name="Hand Weapon" hidden="false" id="1f88-3f92-ee4a-41a8" type="selectionEntry" targetId="6d9c-1ee1-154f-841f"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged" hidden="false" id="18a0-1105-3f3a-9213">
+              <entryLinks>
+                <entryLink import="true" name="Blunderbuss" hidden="false" id="27bd-b04b-a87a-85e2" type="selectionEntry" targetId="9dd4-4b29-d260-2256"/>
+                <entryLink import="true" name="Shotbag" hidden="false" id="1da1-2778-bba8-01cf" type="selectionEntry" targetId="50f0-cb60-e75d-9618"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fdc-930d-1d40-2c7a" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8bd-6c31-df88-74a8" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ethereal Firearm" hidden="false" id="5733-0a67-fead-0fbe" publicationId="8413-013f-4c33-66cd" page="119">
+      <profiles>
+        <profile name="Ethereal Firearm" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour" hidden="false" id="b227-c510-4445-28bd" publicationId="8413-013f-4c33-66cd" page="119">
+          <characteristics>
+            <characteristic name="Eq. Slots" typeId="36bd-a429-cf64-da8c"/>
+            <characteristic name="Range" typeId="f345-8a81-e6d7-fd3b"/>
+            <characteristic name="Damage" typeId="43b3-db09-4088-1505">+1</characteristic>
+            <characteristic name="Notes" typeId="2080-74e8-0e00-4ae9">Given that these weapons do not use physical ammunition, these firearms do not have to be reloaded; however, they can only be fired once per activation, just like a regular musket. They do not require a Reloading action, permitting the wielder to fire and move in the same turn. When making a Shooting Attack, the figure ignores any armour worn by its target and does an additional +1 damage. Targets behind Cover will still receive a Cover bonus as normal, unless the players choose to use the Hard Mode rules instead, in which case Cover is also ignored.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rusted Weapon" hidden="false" id="53e9-cbad-c859-c9ea" publicationId="8413-013f-4c33-66cd" page="121-22">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a0a-61cd-d529-d71f" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Rusted Weapon" typeId="7d2b-4b0f-8b0d-40e8" typeName="Weapon/Armour" hidden="false" id="2b12-ee3a-d3f6-3574" publicationId="8413-013f-4c33-66cd" page="121-22">
+          <characteristics>
+            <characteristic name="Eq. Slots" typeId="36bd-a429-cf64-da8c">1</characteristic>
+            <characteristic name="Range" typeId="f345-8a81-e6d7-fd3b">NA</characteristic>
+            <characteristic name="Damage" typeId="43b3-db09-4088-1505">Power Die</characteristic>
+            <characteristic name="Notes" typeId="2080-74e8-0e00-4ae9">Skeletal soldiers carry with them what remains of their equipment, including their firearms or hand weapons. Like good soldiers, they won’t leave them behind, even in the afterlife! However, any guns carried do not function, as it is assumed the barrels are full of dirt, crud, and rust, and all mechanisms are locked in place due to neglect and being left out in the elements. All firearms are therefore treated as Hand Weapons. In addition, any blunt or bladed weapon carried by a skeleton, regardless of size, is considered rusted and in disrepair, and therefore falls under the Hand Weapon category.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Calabrian Clergyman" hidden="false" id="df21-c57a-aea7-f4eb" publicationId="8413-013f-4c33-66cd" page="30-31">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="14"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Great Faith (O)" id="84fa-23fd-badd-355d" hidden="false" type="rule" targetId="2e8f-ddae-d932-185b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Calabrian Clergyman" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="bc9c-f8ef-7d6e-8a5f" publicationId="8413-013f-4c33-66cd" page="31">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+0</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+0</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">+1</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">Great Faith</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Special Armoury" hidden="false" id="4e3b-3c7f-0630-d449" type="selectionEntryGroup" targetId="9364-0275-bc64-8709"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipment" id="035d-4938-c381-35fb" hidden="false" publicationId="8413-013f-4c33-66cd" page="31">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e0a-46e9-6bdc-692e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cf8-31fd-953b-f7e3" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ranged 1" hidden="false" id="cc2b-5186-66f8-d894">
+              <entryLinks>
+                <entryLink import="true" name="Musket" hidden="false" id="cea1-b522-c569-0f6b" type="selectionEntry" targetId="5afb-9622-e9d9-295e"/>
+                <entryLink import="true" name="Cartridge Box" hidden="false" id="ee2e-25b0-b189-96b9" type="selectionEntry" targetId="aa26-fafd-f3c5-b83c"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged 2" hidden="false" id="ac0a-f052-b56e-b2e7" publicationId="8413-013f-4c33-66cd" page="31">
+              <entryLinks>
+                <entryLink import="true" name="Blunderbuss" hidden="false" id="4469-fc53-ae0b-5528" type="selectionEntry" targetId="9dd4-4b29-d260-2256"/>
+                <entryLink import="true" name="Shotbag" hidden="false" id="0644-6525-fd91-d077" type="selectionEntry" targetId="50f0-cb60-e75d-9618"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melee+" hidden="false" id="81c9-223d-9f98-54dc" publicationId="8413-013f-4c33-66cd" page="31">
+              <entryLinks>
+                <entryLink import="true" name="Hand Weapon" hidden="false" id="f99a-5188-e285-8c36" type="selectionEntry" targetId="6d9c-1ee1-154f-841f"/>
+                <entryLink import="true" name="Pistol" hidden="false" id="4ed6-a548-b94e-696a" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged 3" hidden="false" id="3359-e071-94d8-9d94">
+              <entryLinks>
+                <entryLink import="true" name="Volley Gun" hidden="false" id="e578-033f-c363-0fdc" type="selectionEntry" targetId="2b06-1854-e831-1a18"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Conscript" hidden="false" id="89aa-4808-5814-2663" publicationId="8413-013f-4c33-66cd" page="31-32">
+      <profiles>
+        <profile name="Conscript" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="1ce2-51cc-dc69-b241">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+0</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">-1</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">-1</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">Quick to Run</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="6"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Musket" hidden="false" id="da39-44c3-62c0-ab4e" type="selectionEntry" targetId="5afb-9622-e9d9-295e"/>
+        <entryLink import="true" name="Cartridge Box" hidden="false" id="43be-29d6-cf84-5198" type="selectionEntry" targetId="aa26-fafd-f3c5-b83c"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Quick to Run" id="be13-6d79-bba7-c851" hidden="false" type="rule" targetId="db17-1d78-5a8e-bc1d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Light Infantryman" hidden="false" id="3083-010b-bc14-c22d" publicationId="8413-013f-4c33-66cd" page="32-33">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="16"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Light Infantryman" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="3dc8-9d49-e933-7907" publicationId="8413-013f-4c33-66cd" page="33">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+1</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+1</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">+0</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">Light Infantry Training</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light Infantry Training (O)" id="d611-738f-d6fb-5854" hidden="false" type="rule" targetId="c68d-b6c8-2655-979a"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Cartridge Box" hidden="false" id="a38e-9f50-a3e7-b466" type="selectionEntry" targetId="aa26-fafd-f3c5-b83c"/>
+        <entryLink import="true" name="Musket" hidden="false" id="87fc-0a73-ffbd-2b38" type="selectionEntry" targetId="5afb-9622-e9d9-295e"/>
+        <entryLink import="true" name="Special Armoury" hidden="false" id="e401-d3f4-d87a-71cc" type="selectionEntryGroup" targetId="9364-0275-bc64-8709"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Lupo Mannaro (Calabrian Werewolf)" hidden="false" id="bc95-6d53-b82a-6167" publicationId="8413-013f-4c33-66cd" page="33-34">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="30"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Lupo Mannaro (Calabrian Werewolf)" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="4ca1-b273-20f4-7e23">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+2</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+0</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">12</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">+3</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">11</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">Skinshift (Werewolf)</characteristic>
+          </characteristics>
+          <comment>When in Werewolf form, the Lupo Mannaro gains +2 Defence, +3 Health, and gains the attributes Strong, Indefatigable, Quick Healing, and Hard to Put Down, but it can no longer investigate clue markers.</comment>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Skinshift" id="8c6a-7185-493c-ba0f" hidden="false" type="rule" targetId="8966-fd40-af22-c98e"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" id="8d3f-9651-a6df-1e59" type="selectionEntry" targetId="6d9c-1ee1-154f-841f"/>
+        <entryLink import="true" name="Special Armoury" hidden="false" id="6a49-b786-55a4-6e2d" type="selectionEntryGroup" targetId="9364-0275-bc64-8709"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Provincial Soldier" hidden="false" id="c004-ab7d-1618-f9eb" publicationId="8413-013f-4c33-66cd" page="34-35">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="8"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Provincial Soldier" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="e53e-6a3e-1eb8-eb1c" publicationId="8413-013f-4c33-66cd" page="35">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+1</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+0</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">-1</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">None</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Musket" hidden="false" id="fe28-2f57-fe25-b727" type="selectionEntry" targetId="5afb-9622-e9d9-295e"/>
+        <entryLink import="true" name="Cartridge Box" hidden="false" id="b273-3407-78d1-d8b6" type="selectionEntry" targetId="aa26-fafd-f3c5-b83c"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Voltigeur" hidden="false" id="59a5-3a75-86e4-3a81" publicationId="8413-013f-4c33-66cd" page="35-36">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="18"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Voltigeur" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="ef80-9db5-9d07-014a" publicationId="8413-013f-4c33-66cd" page="35-36">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+1</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+2</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">+0</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">Nimble, Light Infantry Training</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble (O)" id="28c7-1a6c-c2d1-597e" hidden="false" type="rule" targetId="c202-61da-2068-6e0f"/>
+        <infoLink name="Light Infantry Training (O)" id="c327-cf6a-21c4-e1f5" hidden="false" type="rule" targetId="c68d-b6c8-2655-979a"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Cartridge Box" hidden="false" id="dafd-3e07-f7f6-f88c" type="selectionEntry" targetId="aa26-fafd-f3c5-b83c"/>
+        <entryLink import="true" name="Musket" hidden="false" id="4d0d-9b53-fc63-b2aa" type="selectionEntry" targetId="5afb-9622-e9d9-295e"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bow Street Runner" hidden="false" id="4701-e6d3-c9d3-85a7" publicationId="9350-fbd4-499e-4a41" page="10">
+      <costs>
+        <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="13"/>
+        <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Bow Street Runner" typeId="ecd0-660c-6b4c-ce8b" typeName="Individual" hidden="false" id="d718-f360-9eb6-469d">
+          <characteristics>
+            <characteristic name="Speed" typeId="7e6b-dae4-5a96-a8fd">6</characteristic>
+            <characteristic name="Melee" typeId="b16d-2b86-57a8-df62">+1</characteristic>
+            <characteristic name="Accuracy" typeId="5ea4-0adf-341d-833e">+1</characteristic>
+            <characteristic name="Defence" typeId="bb19-e46a-f62d-9c8b">13</characteristic>
+            <characteristic name="Courage" typeId="4d70-346d-670e-3f6c">+1</characteristic>
+            <characteristic name="Health" typeId="75ed-68e4-b07d-0b14">10</characteristic>
+            <characteristic name="Attributes" typeId="3fe3-a56c-0680-b22a">None</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" id="2179-e5a5-b2fe-8ca2" type="selectionEntry" targetId="6d9c-1ee1-154f-841f"/>
+        <entryLink import="true" name="Pistol" hidden="false" id="8617-805d-1e38-e548" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
+        <entryLink import="true" name="Pistol" hidden="false" id="ceef-6940-5ca9-9152" type="selectionEntry" targetId="302b-2f3a-1abc-e0a9"/>
+        <entryLink import="true" name="Special Armoury" hidden="false" id="a5e6-1d49-911c-e303" type="selectionEntryGroup" targetId="9364-0275-bc64-8709">
+          <comment>
+</comment>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2526,8 +2834,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="232a-fac6-3dce-f75b" name="Special Ammunition" hidden="false" collective="false" import="true" defaultSelectionEntryId="05f6-330a-5eda-e6ee">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8960-4908-fc3c-10c0" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cdd-75aa-42c1-62c4" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8960-4908-fc3c-10c0" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cdd-75aa-42c1-62c4" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="05f6-330a-5eda-e6ee" name="Cold Iron Shot" hidden="false" collective="false" import="true" targetId="7163-5fdc-9379-dd49" type="selectionEntry"/>
@@ -2540,8 +2848,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="b37c-9008-1ed3-9464" name="Special Ammunition" hidden="false" collective="false" import="true" defaultSelectionEntryId="075d-7fc8-a8c1-c53c">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59e5-258e-276c-43d0" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8f-f47f-0ad3-da22" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59e5-258e-276c-43d0" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8f-f47f-0ad3-da22" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="075d-7fc8-a8c1-c53c" name="Cold Iron Shot" hidden="false" collective="false" import="true" targetId="7163-5fdc-9379-dd49" type="selectionEntry"/>
@@ -2554,8 +2862,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="5348-eebb-62fe-fa32" name="Special Ammunition" hidden="false" collective="false" import="true" defaultSelectionEntryId="3698-b103-248a-a462">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb15-b636-03ce-4a19" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa43-b431-f4c6-c70d" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb15-b636-03ce-4a19" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa43-b431-f4c6-c70d" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="3698-b103-248a-a462" name="Cold Iron Shot" hidden="false" collective="false" import="true" targetId="7163-5fdc-9379-dd49" type="selectionEntry"/>
@@ -2568,8 +2876,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="a8e1-4907-e516-faa0" name="Special Material" hidden="false" collective="false" import="true" defaultSelectionEntryId="3b98-c419-0fba-dc3f">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f47-2ae2-31de-cf5b" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9073-5388-ba2e-8e5f" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f47-2ae2-31de-cf5b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9073-5388-ba2e-8e5f" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="3b98-c419-0fba-dc3f" name="Cold Iron Weapon" hidden="false" collective="false" import="true" targetId="9da7-d2b9-0b42-b514" type="selectionEntry"/>
@@ -2582,8 +2890,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="939a-d11c-66e0-ab98" name="Special Material" hidden="false" collective="false" import="true" defaultSelectionEntryId="1906-9368-cf2d-8654">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce7-43fd-287a-a0eb" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de99-74b8-f8bd-b731" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce7-43fd-287a-a0eb" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de99-74b8-f8bd-b731" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="1906-9368-cf2d-8654" name="Cold Iron Weapon" hidden="false" collective="false" import="true" targetId="9da7-d2b9-0b42-b514" type="selectionEntry"/>
@@ -2596,8 +2904,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="b60e-410d-0060-5754" name="Special Material" hidden="false" collective="false" import="true" defaultSelectionEntryId="2602-addd-0001-ab4a">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4486-714c-71de-fcd1" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e03b-093c-8a2a-105f" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4486-714c-71de-fcd1" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e03b-093c-8a2a-105f" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="2602-addd-0001-ab4a" name="Cold Iron Weapon" hidden="false" collective="false" import="true" targetId="9da7-d2b9-0b42-b514" type="selectionEntry"/>
@@ -2610,8 +2918,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="3dfe-3428-5d9c-0783" name="Special Material" hidden="false" collective="false" import="true" defaultSelectionEntryId="6db1-3d91-fa65-403e">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906c-3dae-0ba7-aaea" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe6d-28d4-109d-f49c" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906c-3dae-0ba7-aaea" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe6d-28d4-109d-f49c" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="6db1-3d91-fa65-403e" name="Cold Iron Weapon" hidden="false" collective="false" import="true" targetId="9da7-d2b9-0b42-b514" type="selectionEntry"/>
@@ -2624,8 +2932,8 @@ Standard games use 100 point warbands.</comment>
           <selectionEntryGroups>
             <selectionEntryGroup id="a1e2-1157-21b6-1bca" name="Special Material" hidden="false" collective="false" import="true" defaultSelectionEntryId="98cf-9f0f-642d-8752">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d76d-54b9-732e-e931" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a14c-a736-094a-4bf2" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d76d-54b9-732e-e931" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a14c-a736-094a-4bf2" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="98cf-9f0f-642d-8752" name="Cold Iron Weapon" hidden="false" collective="false" import="true" targetId="9da7-d2b9-0b42-b514" type="selectionEntry"/>
@@ -2636,17 +2944,17 @@ Standard games use 100 point warbands.</comment>
         </entryLink>
         <entryLink id="e974-d585-7466-e8c6" name="Holy Symbol" hidden="false" collective="false" import="true" targetId="8f20-2a12-309a-6ccf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49e-dcdc-362f-36a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49e-dcdc-362f-36a9" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="b5a3-3fec-83dc-296c" name="Salt Bag" hidden="false" collective="false" import="true" targetId="a758-cd16-3dc3-1fa3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4196-96e0-1e3a-4d50" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4196-96e0-1e3a-4d50" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="4e7b-8ffd-d6c3-7d04" name="Oil &amp; Torches" hidden="false" collective="false" import="true" targetId="b66f-9bb9-78a1-f37c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a428-b5f9-3627-6530" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a428-b5f9-3627-6530" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2655,255 +2963,271 @@ Standard games use 100 point warbands.</comment>
       <selectionEntries>
         <selectionEntry id="deac-0d54-7c04-4c5b" name="Artillerist" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284d-6936-0dcd-deb7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284d-6936-0dcd-deb7" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="9d18-4cb9-e422-696a" name="Artillerist (O)" hidden="false" targetId="0ed4-b37c-07a3-3c64" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="15e3-bfe2-1a01-5345" name="Combat Engineer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a09-e62f-f704-d067" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a09-e62f-f704-d067" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="c49b-f70f-3e5b-6be2" name="Combat Engineer (O)" hidden="false" targetId="6a58-cb57-1608-4a0b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1797-98e8-c516-640d" name="Combat Rider" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa1-89d9-edf2-e2f6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa1-89d9-edf2-e2f6" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="8125-d259-becd-1c20" name="Combat Rider (O)" hidden="false" targetId="a38b-d7f5-5187-ce71" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c2f-71e1-374d-b5ba" name="Expert Climber" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9905-a150-e349-58f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9905-a150-e349-58f1" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="ea78-8433-77df-b01d" name="Expert Climber (O)" hidden="false" targetId="8863-a93c-471a-4c32" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b4c5-5f6d-c6c3-1dae" name="Fey-Touched" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fec-e3fa-05bd-88a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fec-e3fa-05bd-88a3" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="1b7b-5e05-2c53-bdad" name="Fey-Touched (O)" hidden="false" targetId="e8cf-c32d-2658-4290" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="15f4-24c9-cdec-3e98" name="Fire Starter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c193-4fe8-1442-3c77" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c193-4fe8-1442-3c77" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="d50c-2245-2fb3-e267" name="Fire Starter (O)" hidden="false" targetId="362a-f1fa-d7d0-9a60" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d952-0592-dcb6-6868" name="Great Faith" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1291-23ec-d4e7-da13" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1291-23ec-d4e7-da13" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="c9c5-a106-a1d3-a03a" name="Great Faith (O)" hidden="false" targetId="2e8f-ddae-d932-185b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e2ba-9a52-2d8b-d059" name="Hard to Put Down" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="475d-8fdd-1b96-febe" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="475d-8fdd-1b96-febe" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="01cc-be1e-d245-d8dd" name="Hard to Put Down (O)" hidden="false" targetId="795d-f11e-ef76-3f90" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="528a-8e78-b32d-82c1" name="Indefatigable" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1a-5857-3f5c-84fc" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1a-5857-3f5c-84fc" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="58e0-aa7b-5b91-ce5a" name="Indefatigable (O)" hidden="false" targetId="dca2-2f1b-7cfe-ff4c" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b86b-a2cc-105c-be0d" name="Inspiring" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a1-15fc-938f-8615" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a1-15fc-938f-8615" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="3ccb-7e91-2289-3b4a" name="Inspiring (O)" hidden="false" targetId="4e79-05df-2d0d-7e0d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d6ba-a00d-d9ab-2db9" name="Lunge" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e6-35f2-caac-5293" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e6-35f2-caac-5293" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="1b83-d293-c470-9da6" name="Lunge (O)" hidden="false" targetId="715d-fd78-1a22-2d0d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fd71-9e59-9901-b4cf" name="Master of Cover" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad6-088b-e417-d0fc" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad6-088b-e417-d0fc" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="a84b-b5eb-fc45-5f9d" name="Master of Cover (O)" hidden="false" targetId="45ab-394a-fa81-ad04" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de56-4b29-8ca6-da0d" name="Medic" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6940-c7f9-731a-af94" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6940-c7f9-731a-af94" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="c8e2-6785-a9e7-3fd3" name="Medic (O)" hidden="false" targetId="6c7c-8168-0484-3e73" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="59b1-ba78-e15c-074c" name="Nimble" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea6-79ae-c8df-e45e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea6-79ae-c8df-e45e" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="ad88-6622-0d11-f0e0" name="Nimble (O)" hidden="false" targetId="c202-61da-2068-6e0f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d42-1d5d-949e-d97c" name="Quick Load" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4427-c1f6-3d01-f8bc" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4427-c1f6-3d01-f8bc" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="92e0-8fa7-1e8d-3611" name="Quick Load (O)" hidden="false" targetId="bb50-1d5d-d0dc-78dc" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac4f-3a29-7136-c1cc" name="Steady Legs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab53-5067-6ca7-13d5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab53-5067-6ca7-13d5" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="a128-c1d5-b3ef-fc6b" name="Steady Legs (O)" hidden="false" targetId="de91-a1bb-c9e8-5734" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9a8a-3d31-f229-5a7e" name="Strong" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae2-0deb-8fb1-faae" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae2-0deb-8fb1-faae" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="a3e7-b312-c9b2-e280" name="Strong (O)" hidden="false" targetId="a453-5297-d4e7-7f51" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2998-ef33-cd91-95e1" name="Supernatural Veteran" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4f-ff77-c1e3-c6ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4f-ff77-c1e3-c6ec" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="3575-f069-3cf0-fa53" name="Supernatural Veteran (O)" hidden="false" targetId="e216-e077-8a92-c279" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fd0b-4bee-8ff1-731e" name="Swimmer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3f-34b5-6c1d-b7c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3f-34b5-6c1d-b7c1" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="e5bf-3b9f-c5b5-1636" name="Swimmer (O)" hidden="false" targetId="7d31-754a-9649-f9d5" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="90c2-1219-e7bc-2612" name="Tactician" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-a4b9-7b3b-ab9c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-a4b9-7b3b-ab9c" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="b8cd-0a90-ccd8-c71c" name="Tactician (O)" hidden="false" targetId="937d-cc11-9714-a311" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8bda-2b29-f5d3-b501" name="Unflappable" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ab-95ed-37f0-cfb0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ab-95ed-37f0-cfb0" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="a2db-0556-f917-1798" name="Unflappable (O)" hidden="false" targetId="e90c-1917-fe86-8fa0" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0.0"/>
-            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0.0"/>
+            <cost name=" Pts" typeId="7573-df2a-2bd0-f646" value="0"/>
+            <cost name=" Eq. Slots" typeId="8c7b-4b10-e857-234a" value="0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sneak" hidden="false" id="b7e5-43aa-a7cc-ad36" publicationId="8413-013f-4c33-66cd" page="122">
+          <infoLinks>
+            <infoLink name="Sneak (O)" id="3560-7189-a8d4-8a4b" hidden="false" type="rule" targetId="9f6d-ccd5-fe5f-99c6"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cda2-53df-847c-2420" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Light Infantry Training" hidden="false" id="94ec-d654-c7d6-fb52" publicationId="8413-013f-4c33-66cd" page="119">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d68c-3494-3388-05c4" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Light Infantry Training (O)" id="041b-45fa-c037-c92a" hidden="false" type="rule" targetId="c68d-b6c8-2655-979a"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -3123,6 +3447,50 @@ Each time a figure throws a curse, randomise which effect they have chosen (if t
     </rule>
     <rule id="4ada-1905-55fe-858a" name="Weakened by Faith" publicationId="2908-69b7-1753-ac98" page="157" hidden="false">
       <description>If this figure makes a Melee Attack against a figure with a holy symbol, then it suffers a -3 to its Melee Check.</description>
+    </rule>
+    <rule name="Brittle" id="2a38-acd4-716d-4b8c" hidden="false" publicationId="8413-013f-4c33-66cd" page="117">
+      <description>If struck by a heavy weapon, or if struck or shot with a critical hit, this monster is considered to have been pulverised into dust. Remove the monster from the table.</description>
+    </rule>
+    <rule name="Curse of the Evil Eye" id="1c23-aa6e-5e84-c21f" hidden="false" publicationId="8413-013f-4c33-66cd" page="117">
+      <description>Known in Italian as malocchio, those who receive this curse suffer from a string of terrible luck – it can even be dangerous if not remedied. When making an Attack action against a figure with this attribute, any roll of a 9 or 10 on either the Skill Die or Power Die must be rerolled. The second roll stands. When the figure who has this attribute makes an Attack action against a player’s figure and rolls either a 1 or a 2, reroll the dice. The second roll stands. Figures with the Great Faith attribute, or those with a Holy Symbol, are immune to the effects of this curse and will Attack and be Attacked as normal by a figure with the Curse of the Evil Eye attribute.</description>
+    </rule>
+    <rule name="Dark Gift" id="103b-05ee-2637-4959" hidden="false" publicationId="8413-013f-4c33-66cd" page="118-19">
+      <description>Upon activation, if this trigger is relevant, this necromancer must make a courage check (TN10). If it passes, any undead creature (Revenant, Skeleton, Skeletal Soldier, Ghost, Spectral Soldier, Mummy, or Grave Golem) in line of sight and within 6” that has suffered damage recovers 2 Health (cannot exceed full Health). If, for some reason, this attribute cannot be used (all undead out of range or out of sight), and the necromancer has suffered damage, then the necromancer recovers 2 Health (cannot exceed full Health). If no undead are in sight, or out of range, and the necromancer has not taken any damage, it must then use its Raise the Dead attribute instead, regardless of distance to any players’ figures.</description>
+    </rule>
+    <rule name="Light Infantry Training (O)" id="c68d-b6c8-2655-979a" hidden="false" publicationId="8413-013f-4c33-66cd" page="119">
+      <description>This figure does not suffer a -1 modifier when Moving and Shooting, but can only move at a Speed of 4 when utilising this ability.</description>
+    </rule>
+    <rule name="Quick to Run" id="db17-1d78-5a8e-bc1d" hidden="false" publicationId="8413-013f-4c33-66cd" page="119">
+      <description>Any time this character receives damage to their health, roll a Terror Check.</description>
+    </rule>
+    <rule name="Paralyse" id="4ada-6225-2ded-31ea" hidden="false" publicationId="8413-013f-4c33-66cd" page="121">
+      <description>If the figure with this attribute causes damage to another figure in Melee Combat, that figure has succumbed to a horrific nightmare, despite being wide
+awake. They are ‘Paralysed’ as is listed on the Terror Check Table (The Silver Bayonet). The target must follow the ‘Paralysed’ rules accordingly.</description>
+    </rule>
+    <rule name="Raise the Dead" id="4f23-844f-d932-07b8" hidden="false" publicationId="8413-013f-4c33-66cd" page="121">
+      <description>Upon activation, if this trigger is relevant, the figure that has this attribute may make a roll against the Raise the Dead Table to see what creature they summon. The summoned monster is placed anywhere within 3” of the
+necromancer in a random location.
+
+
+R A I S E T H E D E A D T A B L E
+Die Roll Summoned Creature
+1–5 Skeletal Soldier
+6–8 Revenant (The Silver Bayonet, page 145)
+9 Black Dog (The Silver Bayonet, page 138)
+10 Ghost (The Silver Bayonet, page 140)</description>
+    </rule>
+    <rule name="Sneak (O)" id="9f6d-ccd5-fe5f-99c6" hidden="false" publicationId="8413-013f-4c33-66cd" page="122">
+      <description>Once per scenario, this figure can move unseen if it does not attack this turn and stays its own movement range away from any hostile character or monster. This figure stays in sneak after its movement until its next activation or if an enemy moves into its movement range. Whilst in sneak, no enemy can draw line of sight to this figure unless:
+
+
+1. The target is not behind cover.
+2. The target is within its movement range from the figure with this attribute.
+
+
+If the figure with this attribute is behind substantial Cover (such as a wall or debris), even whilst within melee range, it is assumed that they cannot be seen.
+
+
+Players are encouraged to agree on whether a piece of cover qualifies before the figure moves into contact with it.</description>
     </rule>
   </sharedRules>
 </gameSystem>

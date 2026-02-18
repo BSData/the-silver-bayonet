@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="3e44-4e7d-a9b6-fa79" name="Calabresi" gameSystemId="f347-af68-8218-d8fc" gameSystemRevision="6" revision="1" battleScribeVersion="2.03" publicationId="8413-013f-4c33-66cd" page="26" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Calabrian Clergyman" hidden="false" id="72b0-b659-90ac-7631" type="selectionEntry" targetId="df21-c57a-aea7-f4eb"/>
+    <entryLink import="true" name="Lupo Mannaro (Calabrian Werewolf)" hidden="false" id="f300-b70b-c8b9-9c7a" type="selectionEntry" targetId="bc95-6d53-b82a-6167"/>
+    <entryLink import="true" name="Native Scout" hidden="false" id="5b52-f1b2-8195-1db3" type="selectionEntry" targetId="a7f0-b273-9ea7-6838"/>
+    <entryLink import="true" name="Occultist" hidden="false" id="b1e5-01b5-a1ce-e776" type="selectionEntry" targetId="f9c5-cc0e-72dd-3532"/>
+    <entryLink import="true" name="Supernatural Investigator" hidden="false" id="c547-b63d-3dda-74eb" type="selectionEntry" targetId="d43c-8ab4-b416-eb51"/>
+    <entryLink import="true" name="Veteran Hunter" hidden="false" id="5084-ba9c-b971-9504" type="selectionEntry" targetId="71a6-dc78-ab82-36de"/>
+    <entryLink import="true" name="Irregular" hidden="false" id="31b9-c0e9-831d-6f2d" type="selectionEntry" targetId="da06-c63c-6c01-daf9"/>
+    <entryLink import="true" name="Tactician" hidden="false" id="ae4c-bcb7-5217-305c" type="selectionEntry" targetId="16b6-79a8-e5f7-a126"/>
+    <entryLink import="true" name="Swordsman" hidden="false" id="8811-efa4-a923-9df4" type="selectionEntry" targetId="a695-aaea-c7ad-fa71"/>
+    <entryLink import="true" name="Champion of Faith" hidden="false" id="f01b-4f53-6dc4-6c3d" type="selectionEntry" targetId="61bb-104c-0968-dd27"/>
+    <entryLink import="true" name="Highwayman" hidden="false" id="8f79-b1bc-98b0-2913" type="selectionEntry" targetId="2b0f-49c8-cec0-1e7b"/>
+    <entryLink import="true" name="Woodsman" hidden="false" id="4171-749a-88a1-d326" type="selectionEntry" targetId="2aaf-a6a2-8365-f88b"/>
+    <entryLink import="true" name="Agent Provocateur" hidden="false" id="3be2-9d45-05a4-7af4" type="selectionEntry" targetId="56e8-63bd-e221-4431"/>
+    <entryLink import="true" name="Officer" hidden="false" id="df91-62ad-0236-ca01" type="selectionEntry" targetId="c724-1052-55ac-963f"/>
+  </entryLinks>
+</catalogue>
